@@ -4,7 +4,7 @@
             <div>
                 <ul class="site-menu" data-plugin="menu">
                     <li class="site-menu-item has-sub">
-                        <a href="javascript:void(0)">
+                        <a href="{{ url('dashboard') }}">
                             <i class="site-menu-icon wb-dashboard" aria-hidden="true"></i>
                             <span class="site-menu-title">DASHBOARD</span>
                         </a>
@@ -17,12 +17,12 @@
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="layouts/menu-collapsed.html">
+                                <a class="animsition-link" href="{{ url('member/all') }}">
                                     <span class="site-menu-title">ALL</span>
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="layouts/menu-collapsed-alt.html">
+                                <a class="animsition-link" href="{{ url('certificate') }}">
                                     <span class="site-menu-title">NEED INPUTS</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">0</span>
