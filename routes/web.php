@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', 'App\Http\Controllers\DashboardController@index');
+
+//ADMIN
+Route::get('/member/create', 'App\Http\Controllers\Admin\UserController@index');
