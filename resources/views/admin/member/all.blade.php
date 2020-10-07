@@ -131,7 +131,13 @@
             <div class="col-md-4">
                 <div class="panel panel-bordered animation-fade" data-plugin="appear" data-animate="fade">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Add Doctor</h3>
+                        <h3 class="panel-title">Add Doctor
+                            <a href="{{ url('member/create') }}">
+                                <button type="button" class="btn btn-floating btn-success btn-sm">
+                                    <i class="icon wb-plus" aria-hidden="true"></i>
+                                </button>
+                            </a>
+                        </h3>
                     </div>
                     <div class="panel-body">
                         <div class="form-group">
