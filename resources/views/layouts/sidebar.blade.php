@@ -72,7 +72,7 @@
                         </ul>
                     </li>
                     <li class="site-menu-item">
-                        <a href="javascript:void(0)">
+                        <a href="{{ url('setting') }}">
                             <i class="site-menu-icon wb-settings" aria-hidden="true"></i>
                             <span class="site-menu-title">SETTINGS</span>
                         </a>
