@@ -22,5 +22,6 @@ Route::get('/certificate', 'App\Http\Controllers\DashboardController@certificate
 
 //ADMIN
 Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');
-Route::get('/member/all', 'App\Http\Controllers\Admin\MemberController@index');
+Route::get('/member/', 'App\Http\Controllers\Admin\MemberController@index');
 Route::get('/member/create', 'App\Http\Controllers\Admin\MemberController@create');
+Route::get('/need_attention/', 'App\Http\Controllers\Admin\NeedAttentionController@index');

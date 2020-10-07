@@ -17,20 +17,20 @@
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('member/all') }}">
+                                <a class="animsition-link" href="{{ url('member') }}">
                                     <span class="site-menu-title">ALL</span>
                                 </a>
                             </li>
                             <li class="site-menu-item">
                                 <a class="animsition-link" href="{{ url('certificate') }}">
-                                    <span class="site-menu-title">NEED INPUTS</span>
+                                    <span class="site-menu-title">NEED INPUT</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">0</span>
                                     </div>
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="layouts/menu-expended.html">
+                                <a class="animsition-link" href="{{ url('need_attention') }}">
                                     <span class="site-menu-title">NEED ATTENTION</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">0</span>
