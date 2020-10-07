@@ -82,7 +82,7 @@
                                     <h5 class="mt-0 mb-5">Caleb Richards</h5>
                                     <small>NPI 1023063989</small><br>
                                     <small>Surgery - Orthopaedic</small><br>
-                                    <small class="font-weight-bold" style="color: #de4e00">Expiring Soon</small>
+                                    <small class="yellow-800 font-weight-bold">Expiring Soon</small>
                                 </div>
                                 <div class="panel-actions">
                                     <div class="dropdown">

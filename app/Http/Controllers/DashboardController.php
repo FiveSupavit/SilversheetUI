@@ -10,4 +10,7 @@ class DashboardController extends Controller
         return view('admin.member.all');
     }
 
+    public function certificate(){
+        return view('certificate');
+    }
 }
