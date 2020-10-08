@@ -10,4 +10,8 @@ class NeedAttentionController extends Controller
     public function index(){
         return view('admin.need_attention.list');
     }
+
+    public function checkCertificate(){
+        return view('admin.need_attention.check');
+    }
 }

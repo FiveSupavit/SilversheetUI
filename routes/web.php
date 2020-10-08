@@ -26,4 +26,5 @@ Route::get('/member/', 'App\Http\Controllers\Admin\MemberController@index');
 Route::get('/member/create', 'App\Http\Controllers\Admin\MemberController@create');
 Route::get('/member/edit', 'App\Http\Controllers\Admin\MemberController@edit');
 Route::get('/need_attention/', 'App\Http\Controllers\Admin\NeedAttentionController@index');
+Route::get('/need_attention/check', 'App\Http\Controllers\Admin\NeedAttentionController@checkCertificate');
 Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');

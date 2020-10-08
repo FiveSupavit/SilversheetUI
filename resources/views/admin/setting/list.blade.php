@@ -442,7 +442,6 @@
             if($(this).val() == "Position") {
                 $('.person').css('display','none');
             } else  {
-                // person
                 $('.person').css('display','block');
             }
         });

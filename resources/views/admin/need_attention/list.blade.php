@@ -25,7 +25,6 @@
                             <tr>
                                 <th>Name</th>
                                 <th>Position</th>
-                                <th>License</th>
                                 <th>Request Date</th>
                                 <th>Action</th>
                             </tr>
@@ -34,81 +33,81 @@
                             <tr>
                                 <td>Damon</td>
                                 <td>Doctor</td>
-                                <td>Postgraduate Training</td>
                                 <td>2014/06/13</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Torrey</td>
                                 <td>PA</td>
-                                <td>Board Certification</td>
                                 <td>2014/09/12</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Miracle</td>
                                 <td>Nurse</td>
-                                <td>Medical Education</td>
                                 <td>2013/09/27</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Wilhelmine</td>
                                 <td>CRNA/Anesthesiologist</td>
-                                <td>DEA License</td>
                                 <td>2013/06/28</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Hubert</td>
                                 <td>RT</td>
-                                <td>BLS Certification</td>
                                 <td>2013/05/28</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Myrtie.Gerhold</td>
                                 <td>ST</td>
-                                <td>State Medical License (Connecticut)</td>
                                 <td>2014/12/12</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Chester</td>
                                 <td>MA</td>
-                                <td>Driver's License / ID Card</td>
                                 <td>2014/09/27</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Melany_Gerhold</td>
                                 <td>Staff</td>
-                                <td>Curriculum Vitae</td>
                                 <td>2014/06/28</td>
                                 <td class="actions">
-                                    <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
-                                       data-toggle="modal"><i class="icon wb-search" aria-hidden="true"></i></a>
+                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                        <i class="icon wb-search" aria-hidden="true"></i>
+                                    </a>
                                 </td>
                             </tr>
                             </tbody>
@@ -120,32 +119,6 @@
         </div>
     </div>
     <!-- End Content -->
-
-    <!-- Modal -->
-    <div class="modal fade" id="ModalCheck" aria-hidden="true"
-         aria-labelledby="ModalCheck" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    <h4 class="modal-title">Approve / Reject ?</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center">
-                        <img src="{{asset('images/ex_certificate.png')}}" alt="" width="560" height="344">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Approve</button>
-                    <button type="button" class="btn btn-danger">Reject</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Modal -->
 
 @endsection
 @section('script')

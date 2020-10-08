@@ -84,12 +84,39 @@
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">Position: </label>
                                             <div class="col-md-9">
-                                                <select type="text" class="form-control">
+                                                <select type="text" class="form-control" id="input_position">
                                                     <option value="" disabled selected>Select Position</option>
-                                                    <option value="1">Doctor</option>
-                                                    <option value="2">Nurse</option>
-                                                    <option value="3">Other Staff</option>
+                                                    <option value="doctor">Doctor</option>
+                                                    <option value="nurse">Nurse</option>
+                                                    <option value="staff">Other Staff</option>
                                                 </select>
+                                            </div>
+                                        </div>
+                                        <!-- Start Doctor Detail -->
+                                        <div id="doctor_detail">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">License Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control">
+                                                        <option value="" disabled selected>Select License Type</option>
+                                                        <option value="Type1">Type1</option>
+                                                        <option value="Type2">Type2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">NPI Number: </label>
+                                                <div class="col-md-9">
+                                                    <input type="number" class="form-control" name="npi_number" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Primary Specialty: </label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" name="primary_specialty" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -243,6 +270,7 @@
     <script>
         $( document ).ready(function() {
             $('#user_detail').css('display','none');
+            $('#doctor_detail').css('display','none');
         });
 
         $("#role").change(function () {
@@ -252,5 +280,14 @@
                 $('#user_detail').css('display','none');
             }
         });
+
+        $("#input_position").change(function () {
+            if($(this).val() == "doctor") {
+                $('#doctor_detail').css('display','block');
+            } else  {
+                $('#doctor_detail').css('display','none');
+            }
+        });
+
     </script>
 @endsection
