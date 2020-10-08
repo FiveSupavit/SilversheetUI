@@ -129,7 +129,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="panel panel-bordered animation-fade" data-plugin="appear" data-animate="fade">
+                <div class="panel panel-bordered">
                     <div class="panel-heading">
                         <h3 class="panel-title">Add Doctor
                             <a href="{{ url('member/create') }}">
