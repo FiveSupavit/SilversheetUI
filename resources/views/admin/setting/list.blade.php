@@ -20,13 +20,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel">
+                    <!-- Panel Table Notification -->
                     <header class="panel-heading">
                         <h3 class="panel-title">
                             Notifications
                         </h3>
                     </header>
-
-                    <!-- Panel Table Notification -->
                     <div class="panel">
                         <div class="panel-body">
                             <!-- filter -->
@@ -158,19 +157,21 @@
                     </div>
                     <!-- End Panel Table Notification -->
 
+                    <!-- Panel Table Expired Certificate -->
                     <header class="panel-heading">
                         <h3 class="panel-title">
-                            Expired Certificate
+                            Certificates
                         </h3>
                     </header>
-
-                    <!-- Panel Table Expired Certificate -->
                     <div class="panel">
                         <div class="panel-body">
+                            <button type="button" class="btn btn-primary" style="float: right;" data-target="#ModalAdd" data-toggle="modal">Add new</button>
                             <table class="table table-hover dataTable table-striped w-full" data-plugin="dataTable">
                                 <thead>
                                 <tr>
                                     <th>Name</th>
+                                    <th>Position Required</th>
+                                    <th>Priority</th>
                                     <th>End date</th>
                                     <th>Action</th>
                                 </tr>
@@ -178,7 +179,9 @@
                                 <tbody>
                                 <tr>
                                     <td>Board Certification</td>
-                                    <td>2022-01-01</td>
+                                    <td>Doctor , PA , Nurse , CRNA/Anesthesiologist , RT , ST , MA</td>
+                                    <td>1</td>
+                                    <td>01/01/2021</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
@@ -186,6 +189,8 @@
                                 </tr>
                                 <tr>
                                     <td>Driver's License / ID Card</td>
+                                    <td>All Position</td>
+                                    <td>1</td>
                                     <td>Along Certificate</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
@@ -194,6 +199,8 @@
                                 </tr>
                                 <tr>
                                     <td>Resume</td>
+                                    <td>All Position</td>
+                                    <td>1</td>
                                     <td>Not Expired</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
@@ -211,8 +218,8 @@
     </div>
     <!-- End Content -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="ModalCheck" aria-hidden="true" aria-labelledby="ModalCheck"
+    <!-- Modal Add-->
+    <div class="modal fade" id="ModalAdd" aria-hidden="true" aria-labelledby="ModalAdd"
          role="dialog" tabindex="-1">
         <div class="modal-dialog modal-simple modal-center">
             <div class="modal-content">
@@ -220,14 +227,57 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
-                    <h4 class="modal-title">Edit Certificate</h4>
+                    <h4 class="modal-title">Add Certificate</h4>
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal">
                         <div class="form-group row">
                             <label class="col-md-3 form-control-label">Name: </label>
                             <div class="col-md-9">
-                                <input type="text" class="form-control" name="firstname" placeholder="Name Certificate" autocomplete="off"/>
+                                <input type="text" class="form-control" name="name" placeholder="Name Certificate" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Position Required: </label>
+                            <div class="col-md-9">
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputDoctor" />
+                                    <label for="inputDoctor">Doctor</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputPA" />
+                                    <label for="inputPA">PA</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputNurse" />
+                                    <label for="inputNurse">Nurse</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputCRNA" />
+                                    <label for="inputCRNA">CRNA/Anesthesiologist</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputRT" />
+                                    <label for="inputRT">RT</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputST" />
+                                    <label for="inputST">ST</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputMA" />
+                                    <label for="inputMA">MA</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputStaff" />
+                                    <label for="inputStaff">Staff</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Priority: </label>
+                            <div class="col-md-9">
+                                <input type="number" class="form-control" name="priority" placeholder="" autocomplete="off"/>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -235,7 +285,7 @@
                             <div class="col-md-9">
                                 <select type="text" class="form-control" id="end_date_type">
                                     <option value="" disabled selected>Select End Date Type</option>
-                                    <option value="date">Date</option>
+                                    <option value="date" selected>Date</option>
                                     <option value="along_certificate">Along Certificate</option>
                                     <option value="not_expired">Not Expired</option>
                                 </select>
@@ -259,12 +309,109 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Modal -->
+    <!-- End Modal Add-->
+    <!-- Modal Edit -->
+    <div class="modal fade" id="ModalCheck" aria-hidden="true" aria-labelledby="ModalCheck"
+         role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-simple modal-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title">Edit Certificate</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Name: </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="name" placeholder="Name Certificate" value="Board Certification" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Position Required: </label>
+                            <div class="col-md-9">
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputDoctor" checked/>
+                                    <label for="inputDoctor">Doctor</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputPA" checked/>
+                                    <label for="inputPA">PA</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputNurse" checked/>
+                                    <label for="inputNurse">Nurse</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputCRNA" checked/>
+                                    <label for="inputCRNA">CRNA/Anesthesiologist</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputRT" checked/>
+                                    <label for="inputRT">RT</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputST" checked/>
+                                    <label for="inputST">ST</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputMA" checked/>
+                                    <label for="inputMA">MA</label>
+                                </div>
+                                <div class="checkbox-custom checkbox-primary">
+                                    <input type="checkbox" id="inputStaff" />
+                                    <label for="inputStaff">Staff</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Priority: </label>
+                            <div class="col-md-9">
+                                <input type="number" class="form-control" name="priority" placeholder="" value="1" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">End Date Type: </label>
+                            <div class="col-md-9">
+                                <select type="text" class="form-control" id="end_date_type">
+                                    <option value="" disabled selected>Select End Date Type</option>
+                                    <option value="date" selected>Date</option>
+                                    <option value="along_certificate">Along Certificate</option>
+                                    <option value="not_expired">Not Expired</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row" id="row_end_date">
+                            <label class="col-md-3 form-control-label" for="end_date">End Date:</label>
+                            <div class="col-md-9">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="end_date"
+                                           data-plugin="datepicker" value="01/01/2021" autocomplete="off"/>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">
+                                          <i class="icon wb-calendar" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Edit -->
 @endsection
 @section('script')
     <!-- Plugins -->
@@ -344,7 +491,7 @@
         });
 
         $( document ).ready(function() {
-            $('#row_end_date').css('display','none');
+            $('#row_end_date').css('display','flex');
         });
         $("#end_date_type").change(function () {
             if($(this).val() == "date") {
