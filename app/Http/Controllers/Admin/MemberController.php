@@ -14,4 +14,8 @@ class MemberController extends Controller
     public function create(){
         return view('admin.member.create');
     }
+
+    public function edit(){
+        return view('admin.member.edit');
+    }
 }
