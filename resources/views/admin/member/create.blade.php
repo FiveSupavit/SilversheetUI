@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.admin.main')
 @section('page.title','Add Member | Silversheet')
 @section('style')
     <link rel="stylesheet" href="{{asset('global/vendor/bootstrap-datepicker/bootstrap-datepicker.css')}}">

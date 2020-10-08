@@ -10,10 +10,6 @@ class DashboardController extends Controller
         return view('admin.dashboard');
     }
 
-    public function certificate(){
-        return view('certificate');
-    }
-
     public function login(){
         return view('login');
     }

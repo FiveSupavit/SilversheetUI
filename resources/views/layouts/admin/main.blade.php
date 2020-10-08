@@ -59,15 +59,15 @@
 <![endif]-->
 
 <!-- Begin page -->
-@include('layouts.navbar')
-@include('layouts.sidebar')
+@include('layouts.admin.navbar')
+@include('layouts.admin.sidebar')
 
 <!-- Page -->
 <div class="page">
     @yield('content')
 </div>
 <!-- End Page -->
-@include('layouts.footer')
+@include('layouts.admin.footer')
 
 <!-- Core  -->
 <script src="{{asset('global/vendor/babel-external-helpers/babel-external-helpers.js')}}"></script>

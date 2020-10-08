@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.admin.main')
 @section('page.title','Need Attention | Silversheet')
 @section('style')
     <!-- Plugins -->

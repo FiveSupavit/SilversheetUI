@@ -10,4 +10,8 @@ class NeedInputController extends Controller
     public function index(){
         return view('admin.need_input.list');
     }
+
+    public function certificate(){
+        return view('admin.need_input.certificate');
+    }
 }

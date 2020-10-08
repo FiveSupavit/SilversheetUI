@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.admin.main')
 @section('page.title','Need Input | Silversheet')
 @section('style')
 

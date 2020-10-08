@@ -31,6 +31,12 @@ Route::group([ 'prefix' => 'admin'], function () {
     Route::get('/need_attention/', 'App\Http\Controllers\Admin\NeedAttentionController@index');
     Route::get('/need_attention/check', 'App\Http\Controllers\Admin\NeedAttentionController@checkCertificate');
     Route::get('/need_input/', 'App\Http\Controllers\Admin\NeedInputController@index');
-    Route::get('/certificate', 'App\Http\Controllers\DashboardController@certificate');
+    Route::get('/certificate', 'App\Http\Controllers\Admin\NeedInputController@certificate');
     Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');
+});
+
+//User
+Route::group([ 'prefix' => 'user'], function () {
+    Route::get('/dashboard', 'App\Http\Controllers\User\DashboardController@index');
+    Route::get('/certificate', 'App\Http\Controllers\User\DashboardController@certificate');
 });
