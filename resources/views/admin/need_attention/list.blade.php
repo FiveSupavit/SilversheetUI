@@ -35,7 +35,7 @@
                                 <td>Doctor</td>
                                 <td>2014/06/13</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -45,7 +45,7 @@
                                 <td>PA</td>
                                 <td>2014/09/12</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -55,7 +55,7 @@
                                 <td>Nurse</td>
                                 <td>2013/09/27</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -65,7 +65,7 @@
                                 <td>CRNA/Anesthesiologist</td>
                                 <td>2013/06/28</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -75,7 +75,7 @@
                                 <td>RT</td>
                                 <td>2013/05/28</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -85,7 +85,7 @@
                                 <td>ST</td>
                                 <td>2014/12/12</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -95,7 +95,7 @@
                                 <td>MA</td>
                                 <td>2014/09/27</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -105,7 +105,7 @@
                                 <td>Staff</td>
                                 <td>2014/06/28</td>
                                 <td class="actions">
-                                    <a href="{{ url('/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
+                                    <a href="{{ url('admin/need_attention/check') }}" class="btn btn-sm btn-icon btn-pure btn-default on-default">
                                         <i class="icon wb-search" aria-hidden="true"></i>
                                     </a>
                                 </td>

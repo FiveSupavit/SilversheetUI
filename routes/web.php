@@ -18,15 +18,18 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', 'App\Http\Controllers\DashboardController@index');
-Route::get('/certificate', 'App\Http\Controllers\DashboardController@certificate');
+//Route::get('/certificate', 'App\Http\Controllers\DashboardController@certificate');
 Route::get('/login', 'App\Http\Controllers\DashboardController@login');
 
 //ADMIN
-Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');
-Route::get('/member/', 'App\Http\Controllers\Admin\MemberController@index');
-Route::get('/member/create', 'App\Http\Controllers\Admin\MemberController@create');
-Route::get('/member/edit', 'App\Http\Controllers\Admin\MemberController@edit');
-Route::get('/need_attention/', 'App\Http\Controllers\Admin\NeedAttentionController@index');
-Route::get('/need_attention/check', 'App\Http\Controllers\Admin\NeedAttentionController@checkCertificate');
-Route::get('/need_input/', 'App\Http\Controllers\Admin\NeedInputController@index');
-Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');
+Route::group([ 'prefix' => 'admin'], function () {
+    Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');
+    Route::get('/member/', 'App\Http\Controllers\Admin\MemberController@index');
+    Route::get('/member/create', 'App\Http\Controllers\Admin\MemberController@create');
+    Route::get('/member/edit', 'App\Http\Controllers\Admin\MemberController@edit');
+    Route::get('/need_attention/', 'App\Http\Controllers\Admin\NeedAttentionController@index');
+    Route::get('/need_attention/check', 'App\Http\Controllers\Admin\NeedAttentionController@checkCertificate');
+    Route::get('/need_input/', 'App\Http\Controllers\Admin\NeedInputController@index');
+    Route::get('/certificate', 'App\Http\Controllers\DashboardController@certificate');
+    Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');
+});

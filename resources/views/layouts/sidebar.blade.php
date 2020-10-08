@@ -4,7 +4,7 @@
             <div>
                 <ul class="site-menu" data-plugin="menu">
                     <li class="site-menu-item has-sub">
-                        <a href="{{ url('dashboard') }}">
+                        <a href="{{ url('admin/dashboard') }}">
                             <i class="site-menu-icon wb-dashboard" aria-hidden="true"></i>
                             <span class="site-menu-title">DASHBOARD</span>
                         </a>
@@ -17,12 +17,12 @@
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('member') }}">
+                                <a class="animsition-link" href="{{ url('admin/member') }}">
                                     <span class="site-menu-title">ALL</span>
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('need_input') }}">
+                                <a class="animsition-link" href="{{ url('admin/need_input') }}">
                                     <span class="site-menu-title">NEED INPUT</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">2</span>
@@ -30,7 +30,7 @@
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('need_attention') }}">
+                                <a class="animsition-link" href="{{ url('admin/need_attention') }}">
                                     <span class="site-menu-title">NEED ATTENTION</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">8</span>
@@ -72,7 +72,7 @@
                         </ul>
                     </li>
                     <li class="site-menu-item">
-                        <a href="{{ url('setting') }}">
+                        <a href="{{ url('admin/setting') }}">
                             <i class="site-menu-icon wb-settings" aria-hidden="true"></i>
                             <span class="site-menu-title">SETTINGS</span>
                         </a>
