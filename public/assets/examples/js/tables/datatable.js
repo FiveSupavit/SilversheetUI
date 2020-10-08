@@ -41,6 +41,7 @@
     //   fixedHeader._fnUpdateClones(true);
     //   fixedHeader._fnUpdatePositions();
     // });
+    // });
   })(); // Individual column searching
   // ---------------------------
 
@@ -118,7 +119,7 @@
       },
       build: function build() {
         this.datatable = this.$table.DataTable({
-          aoColumns: [null, null, null, {
+          aoColumns: [null, null, null, null, {
             "bSortable": false
           }],
           language: {
@@ -142,9 +143,9 @@
 
           _self.rowCancel($$$1(this).closest('tr'));
         }).on('click', 'a.edit-row', function (e) {
-          e.preventDefault();
+            e.preventDefault();
 
-          _self.rowEdit($$$1(this).closest('tr'));
+            _self.rowEdit($$$1(this).closest('tr'));
         }).on('click', 'a.remove-row', function (e) {
           e.preventDefault();
           var $row = $$$1(this).closest('tr');
@@ -187,7 +188,7 @@
         });
         var actions, data, $row;
         actions = ['<a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row" data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>', '<a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row" data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>', '<a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row" data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>', '<a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default remove-row" data-toggle="tooltip" data-original-title="Remove"><i class="icon wb-trash" aria-hidden="true"></i></a>'].join(' ');
-        data = this.datatable.row.add(['', '', '', actions]);
+        data = this.datatable.row.add(['', '', '', '', actions]);
         $row = this.datatable.row(data[0]).nodes().to$();
         $row.addClass('adding').find('td:last').addClass('actions');
         this.rowEdit($row);
@@ -228,7 +229,11 @@
           if ($this.hasClass('actions')) {
             _self.rowSetActionsEditing($row);
           } else {
-            $this.html('<input type="text" class="form-control input-block" value="' + data[i] + '"/>');
+              if( i == 3){
+                  $this.html('<input type="text" class="form-control input-block" value="' + data[i] + '"/>');
+              }else{
+                  $this.html('<input type="hidden" class="form-control input-block" value="' + data[i] + '"/> '+ data[i] +'');
+              }
           }
         });
       },

@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('page.title','Add User | Silversheet')
+@section('page.title','Add Member | Silversheet')
 @section('style')
     <link rel="stylesheet" href="{{asset('global/vendor/bootstrap-datepicker/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{asset('global/vendor/dropify/dropify.css')}}">
@@ -10,11 +10,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel">
-                    <header class="panel-heading">
-                        <h3 class="panel-title">
-                            Add Member
-                        </h3>
-                    </header>
+{{--                    <header class="panel-heading">--}}
+{{--                        <h3 class="panel-title">--}}
+{{--                            Add Member--}}
+{{--                        </h3>--}}
+{{--                    </header>--}}
                     <form class="form-horizontal">
                         <div class="panel-body container-fluid">
                             <div class="row row-lg">

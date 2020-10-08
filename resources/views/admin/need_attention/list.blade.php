@@ -19,10 +19,6 @@
             <div class="col-md-12">
                 <!-- Panel Basic -->
                 <div class="panel">
-                    <header class="panel-heading">
-                        <div class="panel-actions"></div>
-                        <h3 class="panel-title">Need Attention</h3>
-                    </header>
                     <div class="panel-body">
                         <table class="table table-hover dataTable table-striped w-full" data-plugin="dataTable">
                             <thead>
@@ -134,7 +130,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
-                    <h4 class="modal-title">Approve / Refuse ?</h4>
+                    <h4 class="modal-title">Approve / Reject ?</h4>
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
@@ -144,7 +140,7 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-success">Approve</button>
-                    <button type="button" class="btn btn-danger">Refuse</button>
+                    <button type="button" class="btn btn-danger">Reject</button>
                 </div>
             </div>
         </div>
