@@ -79,7 +79,8 @@
             <h3 class="font-size-24">Sign In</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-            <form method="post" action="login-v2.html">
+            <form method="post" action="{{ url('post_login') }}">
+                {!! csrf_field() !!}
                 <div class="form-group">
                     <label class="sr-only" for="inputEmail">Email</label>
                     <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
