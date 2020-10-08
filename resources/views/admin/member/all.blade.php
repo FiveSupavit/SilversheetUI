@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('page.title','Dashboard | Remark Admin Template')
+@section('page.title','Member | Silversheet')
 @section('style')
 
 @endsection
@@ -33,13 +33,7 @@
                                 </div>
                                 <div class="panel-actions">
                                     <div class="dropdown">
-                                        <a class="panel-action" data-toggle="dropdown" href="#" aria-expanded="false"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-bullet" role="menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-flag" aria-hidden="true"></i> Action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-print" aria-hidden="true"></i> Another action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-heart" aria-hidden="true"></i> Something else here</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-share" aria-hidden="true"></i> Separated link</a>
-                                        </div>
+                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -59,13 +53,7 @@
                                 </div>
                                 <div class="panel-actions">
                                     <div class="dropdown">
-                                        <a class="panel-action" data-toggle="dropdown" href="#" aria-expanded="false"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-bullet" role="menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-flag" aria-hidden="true"></i> Action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-print" aria-hidden="true"></i> Another action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-heart" aria-hidden="true"></i> Something else here</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-share" aria-hidden="true"></i> Separated link</a>
-                                        </div>
+                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -86,13 +74,7 @@
                                 </div>
                                 <div class="panel-actions">
                                     <div class="dropdown">
-                                        <a class="panel-action" data-toggle="dropdown" href="#" aria-expanded="false"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-bullet" role="menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-flag" aria-hidden="true"></i> Action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-print" aria-hidden="true"></i> Another action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-heart" aria-hidden="true"></i> Something else here</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-share" aria-hidden="true"></i> Separated link</a>
-                                        </div>
+                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -112,13 +94,7 @@
                                 </div>
                                 <div class="panel-actions">
                                     <div class="dropdown">
-                                        <a class="panel-action" data-toggle="dropdown" href="#" aria-expanded="false"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-bullet" role="menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-flag" aria-hidden="true"></i> Action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-print" aria-hidden="true"></i> Another action</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-heart" aria-hidden="true"></i> Something else here</a>
-                                            <a class="dropdown-item" href="javascript:void(0)" role="menuitem"><i class="icon wb-share" aria-hidden="true"></i> Separated link</a>
-                                        </div>
+                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>

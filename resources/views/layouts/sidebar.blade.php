@@ -22,10 +22,10 @@
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('certificate') }}">
+                                <a class="animsition-link" href="{{ url('need_input') }}">
                                     <span class="site-menu-title">NEED INPUT</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">0</span>
+                                        <span class="badge badge-danger badge-round mr-25">2</span>
                                     </div>
                                 </a>
                             </li>
@@ -33,7 +33,7 @@
                                 <a class="animsition-link" href="{{ url('need_attention') }}">
                                     <span class="site-menu-title">NEED ATTENTION</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">0</span>
+                                        <span class="badge badge-danger badge-round mr-25">8</span>
                                     </div>
                                 </a>
                             </li>
