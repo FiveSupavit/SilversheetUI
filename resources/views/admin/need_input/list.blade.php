@@ -32,9 +32,7 @@
                                     <small>Pain Medicine</small><br>
                                 </div>
                                 <div class="panel-actions">
-                                    <div class="dropdown">
-                                        <a class="panel-action" href="{{ url('certificate') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                    </div>
+                                    <a  href="{{ url('certificate') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -52,9 +50,7 @@
                                     <small>Pain Management/Anesthesia</small><br>
                                 </div>
                                 <div class="panel-actions">
-                                    <div class="dropdown">
-                                        <a class="panel-action" href="{{ url('certificate') }}" aria-expanded="false"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                    </div>
+                                    <a href="{{ url('certificate') }}" aria-expanded="false"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>

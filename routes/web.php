@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\DashboardController@index');
 Route::get('/certificate', 'App\Http\Controllers\DashboardController@certificate');
+Route::get('/login', 'App\Http\Controllers\DashboardController@login');
 
 //ADMIN
 Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');

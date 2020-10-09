@@ -32,9 +32,7 @@
                                     <small>Pain Medicine</small><br>
                                 </div>
                                 <div class="panel-actions">
-                                    <div class="dropdown">
-                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                    </div>
+                                    <a href="{{ url('member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -52,9 +50,7 @@
                                     <small>Pain Management/Anesthesia</small><br>
                                 </div>
                                 <div class="panel-actions">
-                                    <div class="dropdown">
-                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                    </div>
+                                    <a href="{{ url('member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -73,9 +69,7 @@
                                     <small class="yellow-800 font-weight-bold">Expiring Soon</small>
                                 </div>
                                 <div class="panel-actions">
-                                    <div class="dropdown">
-                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                    </div>
+                                    <a href="{{ url('member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -93,9 +87,7 @@
                                     <small>Pain Medicine</small><br>
                                 </div>
                                 <div class="panel-actions">
-                                    <div class="dropdown">
-                                        <a class="panel-action" href="{{ url('member/edit') }}"><i class="icon wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
-                                    </div>
+                                    <a href="{{ url('member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
