@@ -17,6 +17,11 @@
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item">
+                                <a class="animsition-link" href="{{ url('user/verified_certificate') }}">
+                                    <span class="site-menu-title">VERIFIED CERTIFICATE</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item">
                                 <a class="animsition-link" href="{{ url('user/certificate') }}">
                                     <span class="site-menu-title">NEED INPUT</span>
                                     <div class="site-menu-label">

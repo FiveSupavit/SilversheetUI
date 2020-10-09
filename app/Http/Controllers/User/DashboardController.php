@@ -14,4 +14,8 @@ class DashboardController extends Controller
     public function certificate(){
         return view('user.certificate');
     }
+
+    public function verifiedCertificate(){
+        return view('user.verified_certificate');
+    }
 }

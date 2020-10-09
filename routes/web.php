@@ -39,5 +39,6 @@ Route::group([ 'prefix' => 'admin'], function () {
 //User
 Route::group([ 'prefix' => 'user'], function () {
     Route::get('/dashboard', 'App\Http\Controllers\User\DashboardController@index');
+    Route::get('/verified_certificate', 'App\Http\Controllers\User\DashboardController@verifiedCertificate');
     Route::get('/certificate', 'App\Http\Controllers\User\DashboardController@certificate');
 });
