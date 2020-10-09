@@ -48,7 +48,7 @@
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
                                 <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTwo" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultTwo">
-                                    Board Certification
+                                    TB Screen Read
                                 </a>
                             </div>
                             <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultTwo" aria-labelledby="exampleHeadingDefaultTwo" role="tabpanel">
@@ -101,7 +101,7 @@
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultFour" role="tab">
                                 <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFour" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultFour">
-                                    State Medical License
+                                    Hospital Privileges
                                     <span class="panel-desc">New York</span>
                                 </a>
                             </div>
@@ -168,7 +168,7 @@
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultSix" role="tab">
                                 <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultSix" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultSix">
-                                    DEA Licence
+                                    Medical License Verification
                                 </a>
                             </div>
                             <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultSix" aria-labelledby="exampleHeadingDefaultSix" role="tabpanel">
