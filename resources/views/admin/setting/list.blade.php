@@ -31,16 +31,16 @@
                             <!-- filter -->
                             <div class="row no-gutters">
                                 <div class="form-group col-md-2">
-                                    <select type="text" class="form-control" id="filter_type">
+                                    <select type="text" class="form-control" name="filter_type" id="filter_type">
                                         <option value="" disabled selected>Filter By</option>
                                         <option value="Position">Position</option>
-                                        <option value="Person">Person</option>
+                                        <option value="Person" selected>Person</option>
                                     </select>
                                 </div>
                                 &nbsp
                                 <div class="form-group col-md-2">
                                     <select type="text" class="form-control" id="filter_position">
-                                        <option value="" disabled selected>Select Position</option>
+                                        <option value="" disabled selected>Filter Position</option>
                                         <option value="doctor">Doctor</option>
                                         <option value="nurse">Nurse</option>
                                     </select>
@@ -48,7 +48,7 @@
                                 &nbsp
                                 <div class="form-group col-md-2">
                                     <select type="text" class="form-control" id="filter_day">
-                                        <option value="" disabled selected>Select Important Day</option>
+                                        <option value="" disabled selected>Filter Important Day</option>
                                         <option value="Birth Day">Birth Day</option>
                                         <option value="Work Anniversary">Work Anniversary</option>
                                         <option value="Work Review">Work Review</option>
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
 
-                            <table class="table table-bordered table-hover table-striped" cellspacing="0" id="exampleAddRow">
+                            <table class="table table-bordered table-hover table-striped" cellspacing="0" data-plugin="dataTable">
                                 <thead>
                                 <tr>
                                     <th class="person">Name</th>
@@ -71,84 +71,54 @@
                                     <td class="person">Alex</td>
                                     <td>Doctor</td>
                                     <td>Birth Day</td>
-                                    <td>14 , 7</td>
+                                    <td>7 , 14</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
-                                           data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
-                                           data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
-                                           data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                                        <div class="icon-edit"></div>
                                     </td>
                                 </tr>
                                 <tr class="gradeA row2">
                                     <td class="person">Alex</td>
                                     <td>Doctor</td>
                                     <td>Work Anniversary</td>
-                                    <td>14 , 7</td>
+                                    <td>7 , 14</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
-                                           data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
-                                           data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
-                                           data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                                        <div class="icon-edit"></div>
                                     </td>
                                 </tr>
                                 <tr class="gradeA row3">
                                     <td class="person">Alex</td>
                                     <td>Doctor</td>
                                     <td>Work Review</td>
-                                    <td>14 , 7</td>
+                                    <td>7 , 14</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
-                                           data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
-                                           data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
-                                           data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                                        <div class="icon-edit"></div>
                                     </td>
                                 </tr>
                                 <tr class="gradeA row4">
                                     <td class="person">Sara</td>
                                     <td>Nurse</td>
                                     <td>Birth Day</td>
-                                    <td>14 , 7</td>
+                                    <td>7 , 14</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
-                                           data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
-                                           data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
-                                           data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                                        <div class="icon-edit"></div>
                                     </td>
                                 </tr>
                                 <tr class="gradeA row5">
                                     <td class="person">Sara</td>
                                     <td>Nurse</td>
                                     <td>Work Anniversary</td>
-                                    <td>14 , 7</td>
+                                    <td>7 , 14</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
-                                           data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
-                                           data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
-                                           data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                                        <div class="icon-edit"></div>
                                     </td>
                                 </tr>
                                 <tr class="gradeA row6">
                                     <td class="person">Sara</td>
                                     <td>Nurse</td>
                                     <td>Work Review</td>
-                                    <td>14 , 7</td>
+                                    <td>7 , 14</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing save-row"
-                                           data-toggle="tooltip" data-original-title="Save" hidden><i class="icon wb-wrench" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-editing cancel-row"
-                                           data-toggle="tooltip" data-original-title="Delete" hidden><i class="icon wb-close" aria-hidden="true"></i></a>
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default edit-row"
-                                           data-toggle="tooltip" data-original-title="Edit"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                                        <div class="icon-edit"></div>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -183,7 +153,7 @@
                                     <td>1</td>
                                     <td>01/01/2021</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
+                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
@@ -193,7 +163,7 @@
                                     <td>1</td>
                                     <td>Along Certificate</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
+                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
@@ -203,7 +173,7 @@
                                     <td>1</td>
                                     <td>Not Expired</td>
                                     <td class="actions">
-                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalCheck"
+                                        <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
@@ -316,7 +286,7 @@
     </div>
     <!-- End Modal Add-->
     <!-- Modal Edit -->
-    <div class="modal fade" id="ModalCheck" aria-hidden="true" aria-labelledby="ModalCheck"
+    <div class="modal fade" id="ModalEdit" aria-hidden="true" aria-labelledby="ModalEdit"
          role="dialog" tabindex="-1">
         <div class="modal-dialog modal-simple modal-center">
             <div class="modal-content">
@@ -412,6 +382,117 @@
         </div>
     </div>
     <!-- End Modal Edit -->
+
+    <!-- Modal Filter Position -->
+    <div class="modal fade" id="ModalFilterPosition" aria-hidden="true" aria-labelledby="ModalFilterPosition"
+         role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-simple modal-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title">Edit Notification</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Position: </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="name" placeholder="Position" value="Doctor" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Important Day: </label>
+                            <div class="col-md-9">
+                                <select type="text" class="form-control">
+                                    <option value="" disabled selected>Select Important Day</option>
+                                    <option value="Birth Day" selected>Birth Day</option>
+                                    <option value="Work Anniversary">Work Anniversary</option>
+                                    <option value="Work Review">Work Review</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Notify ฺ Before the Important Day(Day): </label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" name="name" placeholder="" value="7" autocomplete="off"/>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" name="name" placeholder="" value="14" autocomplete="off"/>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" name="name" placeholder="" value="" autocomplete="off"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Filter Position -->
+    <!-- Modal Filter Person -->
+    <div class="modal fade" id="ModalFilterPerson" aria-hidden="true" aria-labelledby="ModalFilterPerson"
+         role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-simple modal-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title">Edit Notification</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Name: </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="name" placeholder="Name" value="Alex" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Position: </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="position" placeholder="Position" value="Doctor" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Important Day: </label>
+                            <div class="col-md-9">
+                                <select type="text" class="form-control">
+                                    <option value="" disabled selected>Select Important Day</option>
+                                    <option value="Birth Day" selected>Birth Day</option>
+                                    <option value="Work Anniversary">Work Anniversary</option>
+                                    <option value="Work Review">Work Review</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Notify ฺ Before the Important Day(Day): </label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" name="name" placeholder="" value="7" autocomplete="off"/>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" name="name" placeholder="" value="14" autocomplete="off"/>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" name="name" placeholder="" value="" autocomplete="off"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Filter Person -->
 @endsection
 @section('script')
     <!-- Plugins -->
@@ -441,8 +522,12 @@
         $("#filter_type").change(function () {
             if($(this).val() == "Position") {
                 $('.person').css('display','none');
+                $( ".icon-edit" ).html( "<a href=\"#\" class=\"btn btn-sm btn-icon btn-pure btn-default on-default\" data-target=\"#ModalFilterPosition\"\n" +
+                                          "data-toggle=\"modal\"><i class=\"icon wb-edit\" aria-hidden=\"true\"></i></a>" );
             } else  {
                 $('.person').css('display','block');
+                $( ".icon-edit" ).html( "<a href=\"#\" class=\"btn btn-sm btn-icon btn-pure btn-default on-default\" data-target=\"#ModalFilterPerson\"\n" +
+                                          "data-toggle=\"modal\"><i class=\"icon wb-edit\" aria-hidden=\"true\"></i></a>" );
             }
         });
 
@@ -491,6 +576,9 @@
 
         $( document ).ready(function() {
             $('#row_end_date').css('display','flex');
+
+            $( ".icon-edit" ).html( "<a href=\"#\" class=\"btn btn-sm btn-icon btn-pure btn-default on-default\" data-target=\"#ModalFilterPerson\"\n" +
+                "data-toggle=\"modal\"><i class=\"icon wb-edit\" aria-hidden=\"true\"></i></a>" );
         });
         $("#end_date_type").change(function () {
             if($(this).val() == "date") {
