@@ -364,6 +364,60 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-9 col-9">
+                <div class="examle-wrap">
+                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
+                         role="tablist">
+                        <div class="panel">
+                            <div class="panel-heading" id="exampleHeadingDefaultSix" role="tab">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultSix" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultSix">
+                                    DEA Licence
+                                </a>
+                            </div>
+                            <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultSix" aria-labelledby="exampleHeadingDefaultSix" role="tabpanel">
+                                <div class="panel-body bg-blue-grey-100 border timeline-center mb-0 form-icons">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-6">
+                                            <h5>Attachments</h5>
+                                            <input type="file" id="input-file-now" data-plugin="dropify" data-default-file=""/>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-6">
+                                            <div class="example">
+                                                <form autocomplete="off">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label" for="inputBasicFirstName">DEA License number
+                                                            <span class="required">*</span>
+                                                        </label>
+                                                        <input type="text" class="form-control" id="inputBasicFirstName" name="inputFirstName" autocomplete="off"/>
+                                                        <small class="red-700">can't be blank</small>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-control-label" for="inputBasicFirstName">Issue Date</label>
+                                                        <input type="text" class="form-control" id="inputBasicFirstName" name="inputFirstName" autocomplete="off"/>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer" style="padding-top: 20px">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">CANCEL</button>
+                                    <button type="button" class="btn btn-success">SUBMIT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="panel btn-direction btn-left mb-0 w-100">
+                    <div class="panel-body p-2">
+                        <button type="button" class="btn btn-block btn-default btn-sm">INPUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
 @section('script')

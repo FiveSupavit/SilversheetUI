@@ -88,13 +88,13 @@
                 </ul>
             </div>
             <div class="clearfix"></div>
-            <div class="panel-body border">
+            <div class="panel-body border bg-blue-grey-100">
                 <div class="alert alert-danger alert-dismissible" role="alert">
-                    <h4>Body Heading</h4>
+                    <h4>Please invite Poly Chen to connect on Silversheet</h4>
                     <p>Connecting will help streamline tedious credentialing task.</p>
                     <div class="row no-gutters">
                         <div class="col-md-6 col-lg-4 mr-2">
-                            <input type="text" class="form-control" id="inputPlaceholder" placeholder="placeholder">
+                            <input type="text" class="form-control" id="inputPlaceholder" placeholder="provider's email address">
                         </div>
                         <div class="col-md-4 col-lg-2">
                             <button type="button" class="btn btn-success">INVITE TO CONNECT</button>
