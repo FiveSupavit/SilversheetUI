@@ -84,13 +84,13 @@
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('admin/setting') }}">
+                                <a class="animsition-link" href="{{ url('admin/setting/notification') }}">
                                     <span class="site-menu-title">Notification</span>
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('admin/setting') }}">
-                                    <span class="site-menu-title">Certification</span>
+                                <a class="animsition-link" href="{{ url('admin/setting/certificate') }}">
+                                    <span class="site-menu-title">Certificate</span>
                                 </a>
                             </li>
                         </ul>
