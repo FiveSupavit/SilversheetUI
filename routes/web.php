@@ -34,6 +34,8 @@ Route::group([ 'prefix' => 'admin'], function () {
     Route::get('/need_input/', 'App\Http\Controllers\Admin\NeedInputController@index');
     Route::get('/need_input/certificate', 'App\Http\Controllers\Admin\NeedInputController@certificate');
     Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');
+    Route::get('/setting/notification', 'App\Http\Controllers\Admin\SettingController@notification');
+    Route::get('/setting/certificate', 'App\Http\Controllers\Admin\SettingController@certificate');
 });
 
 //User
