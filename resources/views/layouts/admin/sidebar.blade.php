@@ -46,7 +46,7 @@
                                 <a class="animsition-link" href="{{ url('admin/expired') }}">
                                     <span class="site-menu-title">Expired</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">0</span>
+                                        <span class="badge badge-danger badge-round mr-25">1</span>
                                     </div>
                                 </a>
                             </li>
