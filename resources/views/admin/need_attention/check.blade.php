@@ -1,5 +1,5 @@
 @extends('layouts.admin.main')
-@section('page.title','Dashboard | Remark Admin Template')
+@section('page.title','Check | Silversheet')
 @section('style')
     <link rel="stylesheet" href="{{asset('global/vendor/tasklist/tasklist.css')}}">
 @endsection

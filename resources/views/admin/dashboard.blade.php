@@ -1,5 +1,5 @@
 @extends('layouts.admin.main')
-@section('page.title','Dashboard | Remark Admin Template')
+@section('page.title','Dashboard | Silversheet')
 @section('style')
 
 @endsection

@@ -1,5 +1,5 @@
 @extends('layouts.user.main')
-@section('page.title','Certificate | Silversheet')
+@section('page.title','Verified Certificate | Silversheet')
 @section('style')
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{asset('global/vendor/dropify/dropify.css')}}">

@@ -1,5 +1,5 @@
 @extends('layouts.admin.main')
-@section('page.title','Dashboard | Remark Admin Template')
+@section('page.title','Edit Member | Silversheet')
 @section('style')
     <style>
         .panel-body .form-group.row {

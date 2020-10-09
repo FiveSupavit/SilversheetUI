@@ -1,5 +1,5 @@
 @extends('layouts.admin.main')
-@section('page.title','Dashboard | Remark Admin Template')
+@section('page.title','Certificate | Silversheet')
 @section('style')
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{asset('global/vendor/dropify/dropify.css')}}">
