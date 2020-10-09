@@ -54,6 +54,10 @@
                                         <option value="Work Review">Work Review</option>
                                     </select>
                                 </div>
+                                &nbsp
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-primary" onclick="resetFilter()">Reset</button>
+                                </div>
                             </div>
 
                             <table class="table table-bordered table-hover table-striped" cellspacing="0" data-plugin="dataTable">
@@ -539,6 +543,16 @@
                 $('.row4').css('display','none');
                 $('.row5').css('display','none');
                 $('.row6').css('display','none');
+                if($("#filter_day").val()=="Birth Day"){
+                    $('.row1').css('display','');
+                    $('.row2,.row3,.row4,.row5,.row6').css('display','none');
+                }else if($("#filter_day").val()=="Work Anniversary"){
+                    $('.row2').css('display','');
+                    $('.row1,.row3,.row4,.row5,.row6').css('display','none');
+                }else if($("#filter_day").val()=="Work Review"){
+                    $('.row3').css('display','');
+                    $('.row1,.row2,.row4,.row5,.row6').css('display','none');
+                }
             } else  {
                 $('.row1').css('display','none');
                 $('.row2').css('display','none');
@@ -546,6 +560,16 @@
                 $('.row4').css('display','');
                 $('.row5').css('display','');
                 $('.row6').css('display','');
+                if($("#filter_day").val()=="Birth Day"){
+                    $('.row4').css('display','');
+                    $('.row2,.row3,.row1,.row5,.row6').css('display','none');
+                }else if($("#filter_day").val()=="Work Anniversary"){
+                    $('.row5').css('display','');
+                    $('.row2,.row3,.row4,.row1,.row6').css('display','none');
+                }else if($("#filter_day").val()=="Work Review"){
+                    $('.row6').css('display','');
+                    $('.row2,.row3,.row4,.row5,.row1').css('display','none');
+                }
             }
         });
 
@@ -557,6 +581,13 @@
                 $('.row4').css('display','');
                 $('.row5').css('display','none');
                 $('.row6').css('display','none');
+                if($("#filter_position").val()=="doctor"){
+                    $('.row1').css('display','');
+                    $('.row2,.row3,.row4,.row5,.row6').css('display','none');
+                }else if($("#filter_position").val()=="nurse") {
+                    $('.row4').css('display', '');
+                    $('.row2,.row3,.row1,.row5,.row6').css('display', 'none');
+                }
             } else if ($(this).val() == "Work Anniversary"){
                 $('.row1').css('display','none');
                 $('.row2').css('display','');
@@ -564,6 +595,13 @@
                 $('.row4').css('display','none');
                 $('.row5').css('display','');
                 $('.row6').css('display','none');
+                if($("#filter_position").val()=="doctor"){
+                    $('.row2').css('display','');
+                    $('.row1,.row3,.row4,.row5,.row6').css('display','none');
+                }else if($("#filter_position").val()=="nurse"){
+                    $('.row4').css('display','');
+                    $('.row1,.row2,.row3,.row5,.row6').css('display','none');
+                }
             }else  {
                 $('.row1').css('display','none');
                 $('.row2').css('display','none');
@@ -571,6 +609,13 @@
                 $('.row4').css('display','none');
                 $('.row5').css('display','none');
                 $('.row6').css('display','');
+                    if($("#filter_position").val()=="doctor"){
+                        $('.row3').css('display','');
+                        $('.row1,.row2,.row4,.row5,.row6').css('display','none');
+                    }else if($("#filter_position").val()=="nurse"){
+                        $('.row6').css('display','');
+                        $('.row1,.row2,.row3,.row4,.row5').css('display','none');
+                    }
             }
         });
 
@@ -588,5 +633,16 @@
                 $('#row_end_date').css('display','none');
             }
         });
+
+        function resetFilter(){
+            $('.row1').css('display','');
+            $('.row2').css('display','');
+            $('.row3').css('display','');
+            $('.row4').css('display','');
+            $('.row5').css('display','');
+            $('.row6').css('display','');
+            $('#filter_position').val('');
+            $('#filter_day').val('');
+        }
     </script>
 @endsection
