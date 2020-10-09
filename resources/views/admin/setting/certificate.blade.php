@@ -23,7 +23,7 @@
                     <!-- Panel Table Expired Certificate -->
                     <header class="panel-heading">
                         <h3 class="panel-title">
-                            Certificates
+                            Certificate
                         </h3>
                     </header>
                     <div class="panel">

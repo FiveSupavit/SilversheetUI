@@ -22,11 +22,6 @@
                                 </a>
                             </li>
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="{{ url('admin/verified_certificate') }}">
-                                    <span class="site-menu-title">Verified Certificate</span>
-                                </a>
-                            </li>
-                            <li class="site-menu-item">
                                 <a class="animsition-link" href="{{ url('admin/need_input') }}">
                                     <span class="site-menu-title">Need Input</span>
                                     <div class="site-menu-label">
@@ -39,6 +34,27 @@
                                     <span class="site-menu-title">Need Attention</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">8</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="site-menu-item">
+                                <a class="animsition-link" href="{{ url('admin/verified_certificate') }}">
+                                    <span class="site-menu-title">Verified Certificate</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item">
+                                <a class="animsition-link" href="{{ url('admin/expired') }}">
+                                    <span class="site-menu-title">Expired</span>
+                                    <div class="site-menu-label">
+                                        <span class="badge badge-danger badge-round mr-25">0</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="site-menu-item">
+                                <a class="animsition-link" href="{{ url('admin/expiring_soon') }}">
+                                    <span class="site-menu-title">Expiring Soon</span>
+                                    <div class="site-menu-label">
+                                        <span class="badge badge-danger badge-round mr-25">1</span>
                                     </div>
                                 </a>
                             </li>

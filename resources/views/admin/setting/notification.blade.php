@@ -23,7 +23,7 @@
                     <!-- Panel Table Notification -->
                     <header class="panel-heading">
                         <h3 class="panel-title">
-                            Notifications
+                            Notification
                         </h3>
                     </header>
                     <div class="panel">
