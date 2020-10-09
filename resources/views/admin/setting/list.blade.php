@@ -215,36 +215,100 @@
                             <label class="col-md-3 form-control-label">Position Required: </label>
                             <div class="col-md-9">
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputDoctor" />
-                                    <label for="inputDoctor">Doctor</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddDoctor" />
+                                            <label for="inputAddDoctor">Doctor</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddDoctorOptional" disabled />
+                                            <label for="inputAddDoctorOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputPA" />
-                                    <label for="inputPA">PA</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddPA" />
+                                            <label for="inputAddPA">PA</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddPAOptional" disabled />
+                                            <label for="inputAddPAOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputNurse" />
-                                    <label for="inputNurse">Nurse</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddNurse" />
+                                            <label for="inputAddNurse">Nurse</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddNurseOptional" disabled />
+                                            <label for="inputAddNurseOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputCRNA" />
-                                    <label for="inputCRNA">CRNA/Anesthesiologist</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddCRNA" />
+                                            <label for="inputAddCRNA">CRNA/Anesthesiologist</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddCRNAOptional" disabled />
+                                            <label for="inputAddCRNAOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputRT" />
-                                    <label for="inputRT">RT</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddRT" />
+                                            <label for="inputAddRT">RT</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddRTOptional" disabled />
+                                            <label for="inputAddRTOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputST" />
-                                    <label for="inputST">ST</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddST" />
+                                            <label for="inputAddST">ST</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddSTOptional" disabled />
+                                            <label for="inputAddSTOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputMA" />
-                                    <label for="inputMA">MA</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddMA" />
+                                            <label for="inputAddMA">MA</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddMAOptional" disabled />
+                                            <label for="inputAddMAOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputStaff" />
-                                    <label for="inputStaff">Staff</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddStaff" />
+                                            <label for="inputAddStaff">Staff</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputAddStaffOptional" disabled />
+                                            <label for="inputAddStaffOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -257,15 +321,15 @@
                         <div class="form-group row">
                             <label class="col-md-3 form-control-label">End Date Type: </label>
                             <div class="col-md-9">
-                                <select type="text" class="form-control" id="end_date_type">
+                                <select type="text" class="form-control" id="add_end_date_type">
                                     <option value="" disabled selected>Select End Date Type</option>
-                                    <option value="date" selected>Date</option>
+                                    <option value="date">Date</option>
                                     <option value="along_certificate">Along Certificate</option>
                                     <option value="not_expired">Not Expired</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row" id="row_end_date">
+                        <div class="form-group row" id="add_row_end_date">
                             <label class="col-md-3 form-control-label" for="end_date">End Date:</label>
                             <div class="col-md-9">
                                 <div class="input-group">
@@ -312,36 +376,100 @@
                             <label class="col-md-3 form-control-label">Position Required: </label>
                             <div class="col-md-9">
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputDoctor" checked/>
-                                    <label for="inputDoctor">Doctor</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditDoctor" checked/>
+                                            <label for="inputEditDoctor">Doctor</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditDoctorOptional" />
+                                            <label for="inputEditDoctorOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputPA" checked/>
-                                    <label for="inputPA">PA</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditPA" checked/>
+                                            <label for="inputEditPA">PA</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditPAOptional" />
+                                            <label for="inputEditPAOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputNurse" checked/>
-                                    <label for="inputNurse">Nurse</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditNurse" checked/>
+                                            <label for="inputEditNurse">Nurse</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditNurseOptional" />
+                                            <label for="inputEditNurseOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputCRNA" checked/>
-                                    <label for="inputCRNA">CRNA/Anesthesiologist</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditCRNA" checked/>
+                                            <label for="inputEditCRNA">CRNA/Anesthesiologist</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditCRNAOptional" />
+                                            <label for="inputEditCRNAOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputRT" checked/>
-                                    <label for="inputRT">RT</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditRT" checked/>
+                                            <label for="inputEditRT">RT</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditRTOptional" />
+                                            <label for="inputEditRTOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputST" checked/>
-                                    <label for="inputST">ST</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditST" checked/>
+                                            <label for="inputEditST">ST</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditSTOptional" />
+                                            <label for="inputEditSTOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputMA" checked/>
-                                    <label for="inputMA">MA</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditMA" checked/>
+                                            <label for="inputEditMA">MA</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditMAOptional" />
+                                            <label for="inputEditMAOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="checkbox-custom checkbox-primary">
-                                    <input type="checkbox" id="inputStaff" />
-                                    <label for="inputStaff">Staff</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditStaff" />
+                                            <label for="inputEditStaff">Staff</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="inputEditStaffOptional" disabled/>
+                                            <label for="inputEditStaffOptional">(Optional)</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -354,7 +482,7 @@
                         <div class="form-group row">
                             <label class="col-md-3 form-control-label">End Date Type: </label>
                             <div class="col-md-9">
-                                <select type="text" class="form-control" id="end_date_type">
+                                <select type="text" class="form-control" id="edit_end_date_type">
                                     <option value="" disabled selected>Select End Date Type</option>
                                     <option value="date" selected>Date</option>
                                     <option value="along_certificate">Along Certificate</option>
@@ -362,7 +490,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row" id="row_end_date">
+                        <div class="form-group row" id="edit_row_end_date">
                             <label class="col-md-3 form-control-label" for="end_date">End Date:</label>
                             <div class="col-md-9">
                                 <div class="input-group">
@@ -620,17 +748,24 @@
         });
 
         $( document ).ready(function() {
-            $('#row_end_date').css('display','flex');
+            $('#add_row_end_date').css('display','none');
+            $('#edit_row_end_date').css('display','flex');
 
             $( ".icon-edit" ).html( "<a href=\"#\" class=\"btn btn-sm btn-icon btn-pure btn-default on-default\" data-target=\"#ModalFilterPerson\"\n" +
                 "data-toggle=\"modal\"><i class=\"icon wb-edit\" aria-hidden=\"true\"></i></a>" );
         });
-        $("#end_date_type").change(function () {
+        $("#add_end_date_type").change(function () {
             if($(this).val() == "date") {
-                $('#row_end_date').css('display','flex');
+                $('#add_row_end_date').css('display','flex');
             } else  {
-                // person
-                $('#row_end_date').css('display','none');
+                $('#add_row_end_date').css('display','none');
+            }
+        });
+        $("#edit_end_date_type").change(function () {
+            if($(this).val() == "date") {
+                $('#edit_row_end_date').css('display','flex');
+            } else  {
+                $('#edit_row_end_date').css('display','none');
             }
         });
 
@@ -644,5 +779,136 @@
             $('#filter_position').val('');
             $('#filter_day').val('');
         }
+
+        //Check Value Checkbox (Optional , Add Modal)
+        $("#inputAddDoctor").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddDoctorOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddDoctorOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddPA").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddPAOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddPAOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddNurse").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddNurseOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddNurseOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddCRNA").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddCRNAOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddCRNAOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddDoctor").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddDoctorOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddDoctorOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddRT").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddRTOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddRTOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddST").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddSTOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddSTOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddMA").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddMAOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddMAOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputAddStaff").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputAddStaffOptional').prop( "disabled", false );
+            } else  {
+                $('#inputAddStaffOptional').prop( "disabled", true );
+            }
+        });
+
+        //Check Value Checkbox (Optional , Edit Modal)
+        $("#inputEditDoctor").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditDoctorOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditDoctorOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditPA").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditPAOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditPAOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditNurse").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditNurseOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditNurseOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditCRNA").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditCRNAOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditCRNAOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditDoctor").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditDoctorOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditDoctorOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditRT").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditRTOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditRTOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditST").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditSTOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditSTOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditMA").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditMAOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditMAOptional').prop( "disabled", true );
+            }
+        });
+        $("#inputEditStaff").click(function () {
+            if($(this).is(":checked")) {
+                $('#inputEditStaffOptional').prop( "disabled", false );
+            } else  {
+                $('#inputEditStaffOptional').prop( "disabled", true );
+            }
+        });
+
     </script>
 @endsection
