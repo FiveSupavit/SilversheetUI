@@ -9,6 +9,22 @@
             <div class="col-md-6 col-lg-4">
                 <input type="text" class="form-control" id="inputFocus" placeholder="Search by name or NPI">
             </div>
+            <div class="col-md-4 col-lg-2">
+                <select type="text" class="form-control" id="filter_position">
+                    <option value="" disabled selected>Filter Position</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Nurse">Nurse</option>
+                    <option value="Staff">Staff</option>
+                </select>
+            </div>
+            <div class="col-md-5 col-lg-3">
+                <select type="text" class="form-control" id="filter_expire_status">
+                    <option value="" disabled selected>Filter Working Status</option>
+                    <option value="Working">Working</option>
+                    <option value="Expiring Soon">Expiring Soon</option>
+                    <option value="Expired">Expired</option>
+                </select>
+            </div>
         </div>
     </div>
 
@@ -99,7 +115,7 @@
             <div class="col-md-4">
                 <div class="panel panel-bordered">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Add Doctor
+                        <h3 class="panel-title">Add Member
                             <a href="{{ url('admin/member/create') }}">
                                 <button type="button" class="btn btn-floating btn-success btn-sm">
                                     <i class="icon wb-plus" aria-hidden="true"></i>

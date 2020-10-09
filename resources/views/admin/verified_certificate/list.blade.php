@@ -1,5 +1,5 @@
 @extends('layouts.admin.main')
-@section('page.title','Need Input | Silversheet')
+@section('page.title','Verified Certificate | Silversheet')
 @section('style')
 
 @endsection
@@ -22,17 +22,18 @@
                             <div class="media">
                                 <div class="pr-20">
                                     <a class="avatar" href="javascript:void(0)">
-                                        <img class="img-fluid" src="../../../global/portraits/1.jpg"
+                                        <img class="img-fluid" src="../../../global/portraits/3.jpg"
                                              alt="...">
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="mt-0 mb-5">Herman Beck</h5>
-                                    <small>NPI 1255421467</small><br>
-                                    <small>Pain Medicine</small><br>
+                                    <h5 class="mt-0 mb-5">Caleb Richards</h5>
+                                    <small>NPI 1023063989</small><br>
+                                    <small>Surgery - Orthopaedic</small><br>
+                                    <small class="yellow-800 font-weight-bold">Expiring Soon</small>
                                 </div>
                                 <div class="panel-actions">
-                                    <a  href="{{ url('admin/need_input/certificate') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a  href="{{ url('admin/verified_certificate/certificate') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -40,17 +41,17 @@
                             <div class="media">
                                 <div class="pr-20">
                                     <a class="avatar" href="javascript:void(0)">
-                                        <img class="img-fluid" src="../../../global/portraits/2.jpg"
+                                        <img class="img-fluid" src="../../../global/portraits/4.jpg"
                                              alt="...">
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="mt-0 mb-5">Mary Adams</h5>
-                                    <small>NPI 1346583820</small><br>
-                                    <small>Pain Management/Anesthesia</small><br>
+                                    <h5 class="mt-0 mb-5">June Lane</h5>
+                                    <small>NPI 1932312766</small><br>
+                                    <small>Pain Medicine</small><br>
                                 </div>
                                 <div class="panel-actions">
-                                    <a href="{{ url('admin/need_input/certificate') }}" aria-expanded="false"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a  href="{{ url('admin/verified_certificate/certificate') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
