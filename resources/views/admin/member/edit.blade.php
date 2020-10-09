@@ -1,7 +1,11 @@
 @extends('layouts.main')
 @section('page.title','Dashboard | Remark Admin Template')
 @section('style')
-
+    <style>
+        .panel-body .form-group.row {
+            margin-bottom: 0;
+        }
+    </style>
 @endsection
 @section('content')
     <div class="page-content container-fluid">
@@ -68,6 +72,176 @@
                         <div class="panel-body">
                             <p>NPI 1255421467</p>
                             <p>Salem, OR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-heading border-left border-right px-20">
+                <ul class="nav nav-tabs nav-tabs-line" role="tablist">
+                    <li class="nav-item" role="presentation"><a class="active nav-link" data-toggle="tab" href="#all_contacts"
+                                                                aria-controls="all_contacts" role="tab">All Contacts</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#my_contacts" aria-controls="my_contacts"
+                                                                role="tab">My Contacts</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#google_contacts" aria-controls="google_contacts"
+                                                                role="tab">Google Contacts</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="panel-body border">
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <h4>Body Heading</h4>
+                    <p>Connecting will help streamline tedious credentialing task.</p>
+                    <div class="row no-gutters">
+                        <div class="col-md-6 col-lg-4 mr-2">
+                            <input type="text" class="form-control" id="inputPlaceholder" placeholder="placeholder">
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <button type="button" class="btn btn-success">INVITE TO CONNECT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="panel panel-bordered border">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Summary</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <h5>Appoinment</h5>
+                                    <p class="cyan-600">January 01, 2020 - December 31, 2021</p>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-5">
+                                            <h5>Sanctions Checks</h5>
+                                            <div>OIG Clear</div>
+                                            <div class="red-700">NPDB: 2 report</div>
+                                            <p>SAM Clear</p>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <h5>Connection Status</h5>
+                                            <p class="red-700">Not Connected</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <h5>Needs Input / Incomplete Sections</h5>
+                                    <div class="cyan-600">Appointment & Privileges</div>
+                                    <p class="cyan-600">Peer References</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-bordered border">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Current Privileges</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p class="cyan-600">Pain Medicine</p>
+                                <p class="cyan-600">Anesthesiology</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-bordered border">
+                            <h3 class="panel-title">Activity & Note</h3>
+                            <div class="panel-actions">
+                                <button type="button" class="btn btn-success">ADD NOTE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-bordered border">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Parsonal Contact Info</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Phone</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Email</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Pager</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Fax</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Address</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">2345 Crestmont Cir SSalem, OR 97302</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-bordered border">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Office Contact Info</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Group Name</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Manager</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Phone</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Email</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Fax</label>
+                                    <div class="col-md-9">
+                                        <label class="form-control-label" name="standard_fullName">- -</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 form-control-label">Address</label>
+                                    <div class="col-md-9">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-bordered border">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Tools</h3>
+                            </div>
+                            <div class="panel-body">
+                                <h4>Body Heading</h4>
+                                <p>Easily add a heading container to your panel with <code>.panel-heading</code>.
+                                    You may also include any <code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code>                  with a <code>.panel-title</code> class to add a pre-styled heading.</p>
+                                <p>For proper link coloring, be sure to place links in headings within
+                                    <code>.panel-title</code>.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
