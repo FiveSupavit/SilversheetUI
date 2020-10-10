@@ -52,15 +52,13 @@
             </div>
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultOne"
-                                   data-parent="#exampleAccordionDefault" aria-expanded="false"
-                                   aria-controls="exampleCollapseDefaultOne">
-                                    Postgraduate Training
-                                </a>
+                                <h3 class="panel-title">Fullscreen</h3>
+                                <div class="panel-actions">
+                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                </div>
                             </div>
                             <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultOne" aria-labelledby="exampleHeadingDefaultOne"
                                  role="tabpanel">
@@ -122,13 +120,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 col-3">
                 <div class="panel btn-direction btn-left mb-0 w-100">
                     <div class="panel-body p-2">
-                        <button type="button" class="btn btn-block btn-default btn-sm">INPUT</button>
+                        <button type="button" class="btn btn-block btn-default btn-sm collapsed" data-toggle="collapse" href="#exampleCollapseDefaultOne"
+                                aria-expanded="false" aria-controls="exampleCollapseDefaultOne">INPUT</button>
                     </div>
                 </div>
             </div>
@@ -136,11 +135,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTwo" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultTwo">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTwo" aria-expanded="false" aria-controls="exampleCollapseDefaultTwo">
                                     Board Certification
                                 </a>
                             </div>
@@ -189,11 +187,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultThree" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultThree">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultThree" aria-expanded="false" aria-controls="exampleCollapseDefaultThree">
                                     Medical Education
                                 </a>
                             </div>
@@ -237,11 +234,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultFour" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFour" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultFour">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFour" aria-expanded="false" aria-controls="exampleCollapseDefaultFour">
                                     State Medical License
                                     <span class="panel-desc">Connecticut</span>
                                 </a>
@@ -304,11 +300,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultFive" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFive" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultFive">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFive" aria-expanded="false" aria-controls="exampleCollapseDefaultFive">
                                     State Medical License
                                     <span class="panel-desc">Oregon</span>
                                 </a>
@@ -371,11 +366,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultSix" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultSix" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultSix">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultSix" aria-expanded="false" aria-controls="exampleCollapseDefaultSix">
                                     DEA Licence
                                 </a>
                             </div>
@@ -425,11 +419,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultSeven" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultSeven" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultSeven">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultSeven" aria-expanded="false" aria-controls="exampleCollapseDefaultSeven">
                                     Malpractice
                                     <span class="panel-desc">Limits: -- / --</span>
                                 </a>
@@ -545,11 +538,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultEight" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultEight" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultEight">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultEight" aria-expanded="false" aria-controls="exampleCollapseDefaultEight">
                                     CDS License
                                     <span class="panel-desc">Oregon</span>
                                 </a>
@@ -595,11 +587,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultNine" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultNine" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultNine">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultNine" aria-expanded="false" aria-controls="exampleCollapseDefaultNine">
                                     Fluoroscopy Certification
                                 </a>
                             </div>
@@ -650,11 +641,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultTen" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTen" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultTen">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTen" aria-expanded="false" aria-controls="exampleCollapseDefaultTen">
                                     ACLS Certification
                                 </a>
                             </div>
@@ -705,11 +695,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultEleven" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultEleven" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultEleven">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultEleven" aria-expanded="false" aria-controls="exampleCollapseDefaultEleven">
                                     BLS Certification
                                 </a>
                             </div>
@@ -760,11 +749,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultTwelve" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTwelve" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultTwelve">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTwelve" aria-expanded="false" aria-controls="exampleCollapseDefaultTwelve">
                                     PALS Certification
                                 </a>
                             </div>
@@ -815,11 +803,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultThirteen" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultThirteen" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultThirteen">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultThirteen" aria-expanded="false" aria-controls="exampleCollapseDefaultThirteen">
                                     Driver License
                                 </a>
                             </div>
@@ -854,11 +841,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultFourteen" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFourteen" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultFourteen">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFourteen" aria-expanded="false" aria-controls="exampleCollapseDefaultFourteen">
                                     Curriculum Vitae
                                 </a>
                             </div>
@@ -893,11 +879,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-9 col-9">
                 <div class="examle-wrap">
-                    <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true"
-                         role="tablist">
+                    <div class="panel-group">
                         <div class="panel">
                             <div class="panel-heading" id="exampleHeadingDefaultFiveteen" role="tab">
-                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFiveteen" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultFiveteen">
+                                <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFiveteen" aria-expanded="false" aria-controls="exampleCollapseDefaultFiveteen">
                                     CCS Panel
                                 </a>
                             </div>
