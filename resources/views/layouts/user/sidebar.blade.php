@@ -3,25 +3,25 @@
         <div>
             <div>
                 <ul class="site-menu" data-plugin="menu">
-                    <li class="site-menu-item has-sub">
+                    <li class="site-menu-item has-sub {{Request::is('user/dashboard')?'active':''}}">
                         <a href="{{ url('user/dashboard') }}">
                             <i class="site-menu-icon wb-dashboard" aria-hidden="true"></i>
                             <span class="site-menu-title">Dashboard</span>
                         </a>
                     </li>
-                    <li class="site-menu-item has-sub">
+                    <li class="site-menu-item has-sub {{Request::is('user/verified_certificate')||Request::is('user/certificate')?'active open':''}}">
                         <a href="javascript:void(0)">
                             <i class="site-menu-icon wb-layout" aria-hidden="true"></i>
                             <span class="site-menu-title">Certificate</span>
                             <span class="site-menu-arrow"></span>
                         </a>
                         <ul class="site-menu-sub">
-                            <li class="site-menu-item">
+                            <li class="site-menu-item {{Request::is('user/verified_certificate')?'active':''}}">
                                 <a class="animsition-link" href="{{ url('user/verified_certificate') }}">
                                     <span class="site-menu-title">Verified Certificate</span>
                                 </a>
                             </li>
-                            <li class="site-menu-item">
+                            <li class="site-menu-item {{Request::is('user/certificate')?'active':''}}">
                                 <a class="animsition-link" href="{{ url('user/certificate') }}">
                                     <span class="site-menu-title">Need Input</span>
                                     <div class="site-menu-label">
