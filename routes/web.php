@@ -36,6 +36,7 @@ Route::group([ 'prefix' => 'admin'], function () {
 //    Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');
     Route::get('/setting/notification', 'App\Http\Controllers\Admin\SettingController@notification');
     Route::get('/setting/certificate', 'App\Http\Controllers\Admin\SettingController@certificate');
+    Route::get('/setting/company', 'App\Http\Controllers\Admin\SettingController@company');
     Route::get('/expired', 'App\Http\Controllers\Admin\ExpiredController@index');
     Route::get('/expiring_soon', 'App\Http\Controllers\Admin\ExpiringSoonController@index');
 });
