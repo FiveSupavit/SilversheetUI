@@ -34,7 +34,6 @@
                                 <tr>
                                     <th>Name</th>
                                     <th>Position Required</th>
-                                    <th>Priority</th>
                                     <th>End date</th>
                                     <th>Action</th>
                                 </tr>
@@ -43,7 +42,6 @@
                                 <tr>
                                     <td>Board Certification</td>
                                     <td>Doctor , PA , Nurse , CRNA/Anesthesiologist , RT , ST , MA</td>
-                                    <td>1</td>
                                     <td>01/01/2021</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
@@ -53,7 +51,6 @@
                                 <tr>
                                     <td>Driver's License / ID Card</td>
                                     <td>All Position</td>
-                                    <td>1</td>
                                     <td>Along Certificate</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
@@ -63,7 +60,6 @@
                                 <tr>
                                     <td>Resume</td>
                                     <td>All Position</td>
-                                    <td>1</td>
                                     <td>Not Expired</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
@@ -199,12 +195,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-md-3 form-control-label">Priority: </label>
-                            <div class="col-md-9">
-                                <input type="number" class="form-control" name="priority" placeholder="" autocomplete="off"/>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -360,12 +350,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-md-3 form-control-label">Priority: </label>
-                            <div class="col-md-9">
-                                <input type="number" class="form-control" name="priority" placeholder="" value="1" autocomplete="off"/>
                             </div>
                         </div>
                         <div class="form-group row">
