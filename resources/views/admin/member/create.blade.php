@@ -3,6 +3,17 @@
 @section('style')
     <link rel="stylesheet" href="{{asset('global/vendor/bootstrap-datepicker/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{asset('global/vendor/dropify/dropify.css')}}">
+    <style>
+        .panel-actions {
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            z-index: 1;
+            margin: auto;
+            -webkit-transform: translate(0,-50%);
+            transform: translate(0,-50%);
+        }
+    </style>
 @endsection
 @section('content')
     <!-- Content -->
@@ -17,7 +28,7 @@
 {{--                    </header>--}}
                     <form class="form-horizontal">
                         <div class="panel-body container-fluid">
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-md-12 col-lg-6 offset-lg-3">
                                 <!-- Example Horizontal Form -->
                                 <div class="form-group row">
                                     <label class="col-md-3 form-control-label">First Name: </label>
@@ -70,10 +81,9 @@
                                                autocomplete="off" />
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Start User Detail -->
-                            <div id="user_detail">
-                                <div class="col-md-12 col-lg-6">
+
+                                <!-- Start User Detail -->
+                                <div id="user_detail">
                                     <div id="user_detail">
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label" for="birthdate">Birth Date:</label>
@@ -130,7 +140,7 @@
                                         <header class="panel-heading">
                                             <h6 class="panel-title">
                                                 Company
-                                                <div class="panel-actions" style="right: 0px">
+                                                <div class="panel-actions">
                                                     <button type="button" id="add_field_company" class="btn btn-floating btn-success btn-sm shadow-none"><i class="wb-plus" aria-hidden="true"></i></button>
                                                 </div>
                                             </h6>
@@ -187,14 +197,12 @@
                                         <!-- End Doctor Detail -->
                                     </div>
                                     <!-- End Add field Company Detail -->
-                                </div>
-                                <div id="company_detail_2">
-                                    <hr>
-                                    <div class="col-md-12 col-lg-6">
+                                    <div id="company_detail_2">
+                                        <hr>
                                         <div class="example">
                                             <header class="panel-heading">
                                                 <h6 class="panel-title">
-                                                    <div class="panel-actions" style="right: 0px">
+                                                    <div class="panel-actions">
                                                         <button type="button" id="remove_field_company_2" class="btn btn-floating btn-danger btn-sm shadow-none"><i class="wb-close" aria-hidden="true"></i></button>
                                                     </div>
                                                 </h6>
@@ -250,14 +258,12 @@
                                         </div>
                                         <!-- Start Add field Company Detail -->
                                     </div>
-                                </div>
-                                <div id="company_detail_3">
-                                    <hr>
-                                    <div class="col-md-12 col-lg-6">
+                                    <div id="company_detail_3">
+                                        <hr>
                                         <div class="example">
                                             <header class="panel-heading">
                                                 <h6 class="panel-title">
-                                                    <div class="panel-actions" style="right: 0px">
+                                                    <div class="panel-actions">
                                                         <button type="button" id="remove_field_company_3" class="btn btn-floating btn-danger btn-sm shadow-none"><i class="wb-close" aria-hidden="true"></i></button>
                                                     </div>
                                                 </h6>
@@ -266,8 +272,12 @@
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">Company: </label>
                                             <div class="col-md-9">
-                                                <input type="text" class="form-control" name="company" placeholder="Company"
-                                                       autocomplete="off" />
+                                                <select type="text" class="form-control" id="company1">
+                                                    <option value="" disabled selected>Select Company</option>
+                                                    <option value="Company A">Company A</option>
+                                                    <option value="Company B">Company B</option>
+                                                    <option value="Company C">Company C</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -308,8 +318,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-12 col-lg-6">
                                     <header class="panel-heading">
                                         <h6 class="panel-title">
                                             Other Legal Name
@@ -384,7 +392,7 @@
                                 </div>
                             </div>
                             <!-- End User Detail -->
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-md-12 col-lg-6 offset-lg-3">
                                 <div class="form-group row">
                                     <div class="col-md-9 offset-md-3">
                                         <button type="button" class="btn btn-success">Submit</button>
