@@ -60,7 +60,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab">
                             <h3 class="panel-title">Postgraduate Training</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultOne" aria-labelledby="exampleHeadingDefaultOne"
@@ -141,7 +141,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
                             <h3 class="panel-title">Board Certification</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultTwo" aria-labelledby="exampleHeadingDefaultTwo" role="tabpanel">
@@ -193,7 +193,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab">
                             <h3 class="panel-title">Medical Education</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultThree" aria-labelledby="exampleHeadingDefaultThree" role="tabpanel">
@@ -243,7 +243,7 @@
                                 <span class="panel-desc">Connecticut</span>
                             </h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultFour" aria-labelledby="exampleHeadingDefaultFour" role="tabpanel">
@@ -311,7 +311,7 @@
                                 <span class="panel-desc">Oregon</span>
                             </h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultFive" aria-labelledby="exampleHeadingDefaultFive" role="tabpanel">
@@ -376,7 +376,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultSix" role="tab">
                             <h3 class="panel-title">DEA Licence</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultSix" aria-labelledby="exampleHeadingDefaultSix" role="tabpanel">
@@ -432,7 +432,7 @@
                                 <span class="panel-desc">Limits: -- / --</span>
                             </h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultSeven" aria-labelledby="exampleHeadingDefaultSeven" role="tabpanel">
@@ -552,7 +552,7 @@
                                 CDS License
                                 <span class="panel-desc">Oregon</span></h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultEight" aria-labelledby="exampleHeadingDefaultEight" role="tabpanel">
@@ -600,7 +600,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultNine" role="tab">
                             <h3 class="panel-title">Fluoroscopy Certification</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultNine" aria-labelledby="exampleHeadingDefaultNine" role="tabpanel">
@@ -654,7 +654,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultTen" role="tab">
                             <h3 class="panel-title">ACLS Certification</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultTen" aria-labelledby="exampleHeadingDefaultTen" role="tabpanel">
@@ -708,7 +708,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultEleven" role="tab">
                             <h3 class="panel-title">BLS Certification</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultEleven" aria-labelledby="exampleHeadingDefaultEleven" role="tabpanel">
@@ -762,7 +762,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultTwelve" role="tab">
                             <h3 class="panel-title">PALS Certification</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultTwelve" aria-labelledby="exampleHeadingDefaultTwelve" role="tabpanel">
@@ -816,7 +816,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultThirteen" role="tab">
                             <h3 class="panel-title">Driver License</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultThirteen" aria-labelledby="exampleHeadingDefaultThirteen" role="tabpanel">
@@ -854,7 +854,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultFourteen" role="tab">
                             <h3 class="panel-title">Curriculum Vitae</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultFourteen" aria-labelledby="exampleHeadingDefaultFourteen" role="tabpanel">
@@ -892,7 +892,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultFiveteen" role="tab">
                             <h3 class="panel-title">CCS Panel</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultFiveteen" aria-labelledby="exampleHeadingDefaultFiveteen" role="tabpanel">

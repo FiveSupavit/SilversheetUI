@@ -55,7 +55,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
                             <h3 class="panel-title">Board Certification</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultTwo" aria-labelledby="exampleHeadingDefaultTwo" role="tabpanel">
@@ -103,7 +103,7 @@
                         <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab">
                             <h3 class="panel-title">Medical Education</h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultThree" aria-labelledby="exampleHeadingDefaultThree" role="tabpanel">
@@ -149,7 +149,7 @@
                                 <span class="panel-desc">Connecticut</span>
                             </h3>
                             <div class="panel-actions">
-                                <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="panel-collapse collapse panel-bordered" id="exampleCollapseDefaultFour" aria-labelledby="exampleHeadingDefaultFour" role="tabpanel">
