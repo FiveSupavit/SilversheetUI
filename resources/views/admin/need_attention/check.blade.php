@@ -104,7 +104,7 @@
                                         </div>
                                     </li>
                                     <li class="list-group-item mt-1 text-right">
-                                        <button type="button" class="btn btn-primary">Aprrove</button>
+                                        <button type="button" class="btn btn-success">Aprrove</button>
                                         <button type="button" class="btn btn-danger">Reject</button>
                                     </li>
                                 </ul>

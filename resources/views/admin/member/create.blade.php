@@ -377,7 +377,7 @@
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-group row">
                                     <div class="col-md-9 offset-md-3">
-                                        <button type="button" class="btn btn-primary">Submit </button>
+                                        <button type="button" class="btn btn-success">Submit</button>
                                         <button type="reset" class="btn btn-default btn-outline">Reset</button>
                                     </div>
                                 </div>
