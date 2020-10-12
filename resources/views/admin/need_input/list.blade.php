@@ -7,7 +7,7 @@
     <div class="page-header">
         <div class="row row-lg">
             <div class="col-md-6 col-lg-4">
-                <input type="text" class="form-control" id="inputFocus" placeholder="Search by name or NPI">
+                <input type="text" class="form-control" id="inputFocus" placeholder="Search by Name or NPI or Position">
             </div>
             <div class="col-md-4 col-lg-2">
                 <select type="text" class="form-control" id="filter_position">
