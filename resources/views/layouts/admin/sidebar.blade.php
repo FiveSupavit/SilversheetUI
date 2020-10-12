@@ -33,7 +33,7 @@
                                 <a class="animsition-link" href="{{ url('admin/need_attention') }}">
                                     <span class="site-menu-title">Need Attention</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">8</span>
+                                        <span class="badge badge-danger badge-round mr-25">2</span>
                                     </div>
                                 </a>
                             </li>

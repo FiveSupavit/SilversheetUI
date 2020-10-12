@@ -9,6 +9,14 @@
             <div class="col-md-6 col-lg-4">
                 <input type="text" class="form-control" id="inputFocus" placeholder="Search by name or NPI">
             </div>
+            <div class="col-md-4 col-lg-2">
+                <select type="text" class="form-control" id="filter_position">
+                    <option value="" disabled selected>Filter Position</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Nurse">Nurse</option>
+                    <option value="Staff">Staff</option>
+                </select>
+            </div>
         </div>
     </div>
 
