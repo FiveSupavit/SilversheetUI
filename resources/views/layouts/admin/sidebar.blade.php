@@ -109,6 +109,11 @@
                                     <span class="site-menu-title">Certificate</span>
                                 </a>
                             </li>
+                            <li class="site-menu-item">
+                                <a class="animsition-link" href="{{ url('admin/setting/company') }}">
+                                    <span class="site-menu-title">Company</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
