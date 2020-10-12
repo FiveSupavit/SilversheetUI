@@ -8,7 +8,7 @@
     <meta name="description" content="bootstrap admin template">
     <meta name="author" content="">
 
-    <title>Login V2 | Remark Admin Template</title>
+    <title>Login | Silversheet</title>
 
     <link rel="apple-touch-icon" href="../../assets/images/apple-touch-icon.png">
     <link rel="shortcut icon" href="../../assets/images/favicon.ico">

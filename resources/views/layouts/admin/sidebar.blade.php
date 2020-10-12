@@ -40,6 +40,9 @@
                             <li class="site-menu-item">
                                 <a class="animsition-link" href="{{ url('admin/verified_certificate') }}">
                                     <span class="site-menu-title">Verified Certificate</span>
+                                    <div class="site-menu-label">
+                                        <span class="badge badge-danger badge-round mr-25">3</span>
+                                    </div>
                                 </a>
                             </li>
                             <li class="site-menu-item">
