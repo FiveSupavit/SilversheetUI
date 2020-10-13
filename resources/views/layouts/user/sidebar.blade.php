@@ -16,17 +16,17 @@
                             <span class="site-menu-arrow"></span>
                         </a>
                         <ul class="site-menu-sub">
-                            <li class="site-menu-item {{Request::is('user/verified_certificate')?'active':''}}">
-                                <a class="animsition-link" href="{{ url('user/verified_certificate') }}">
-                                    <span class="site-menu-title">Verified Certificate</span>
-                                </a>
-                            </li>
                             <li class="site-menu-item {{Request::is('user/certificate')?'active':''}}">
                                 <a class="animsition-link" href="{{ url('user/certificate') }}">
                                     <span class="site-menu-title">Need Input</span>
                                     <div class="site-menu-label">
                                         <span class="badge badge-danger badge-round mr-25">6</span>
                                     </div>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{Request::is('user/verified_certificate')?'active':''}}">
+                                <a class="animsition-link" href="{{ url('user/verified_certificate') }}">
+                                    <span class="site-menu-title">Verified Certificate</span>
                                 </a>
                             </li>
                         </ul>
