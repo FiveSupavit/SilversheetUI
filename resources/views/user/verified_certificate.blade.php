@@ -54,7 +54,7 @@
                     <div class="panel">
                         <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
                             <h3 class="panel-title">Board Certification</h3>
-                            <div class="panel-actions">
+                            <div class="panel-actions panel-actions-keep">
                                 <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                     <div class="panel">
                         <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab">
                             <h3 class="panel-title">Medical Education</h3>
-                            <div class="panel-actions">
+                            <div class="panel-actions panel-actions-keep">
                                 <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                                 State Medical License
                                 <span class="panel-desc">Connecticut</span>
                             </h3>
-                            <div class="panel-actions">
+                            <div class="panel-actions panel-actions-keep">
                                 <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                             </div>
                         </div>

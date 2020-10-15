@@ -40,7 +40,7 @@
                                     <small>Pain Medicine</small><br>
                                     <small class="red-700 font-weight-bold">Expired</small>
                                 </div>
-                                <div class="panel-actions">
+                                <div class="panel-actions panel-actions-keep">
 {{--                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>--}}
                                     <a  href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>

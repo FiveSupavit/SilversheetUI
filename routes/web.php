@@ -33,6 +33,8 @@ Route::group([ 'prefix' => 'admin'], function () {
     Route::get('/need_attention/check', 'App\Http\Controllers\Admin\NeedAttentionController@checkCertificate');
     Route::get('/need_input/', 'App\Http\Controllers\Admin\NeedInputController@index');
     Route::get('/need_input/certificate', 'App\Http\Controllers\Admin\NeedInputController@certificate');
+    Route::get('/need_input/certificate/nurse', 'App\Http\Controllers\Admin\NeedInputController@certificateNurse');
+    Route::get('/need_input/certificate/other_staff', 'App\Http\Controllers\Admin\NeedInputController@certificateOtherStaff');
 //    Route::get('/setting/', 'App\Http\Controllers\Admin\SettingController@index');
     Route::get('/setting/notification', 'App\Http\Controllers\Admin\SettingController@notification');
     Route::get('/setting/certificate', 'App\Http\Controllers\Admin\SettingController@certificate');

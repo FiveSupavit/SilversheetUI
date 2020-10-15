@@ -14,4 +14,12 @@ class NeedInputController extends Controller
     public function certificate(){
         return view('admin.need_input.certificate');
     }
+
+    public function certificateNurse(){
+        return view('admin.need_input.certificate_nurse');
+    }
+
+    public function certificateOtherStaff(){
+        return view('admin.need_input.certificate_other_staff');
+    }
 }

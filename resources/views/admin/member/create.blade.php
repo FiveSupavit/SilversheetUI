@@ -3,17 +3,6 @@
 @section('style')
     <link rel="stylesheet" href="{{asset('global/vendor/bootstrap-datepicker/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{asset('global/vendor/dropify/dropify.css')}}">
-    <style>
-        .panel-actions {
-            position: absolute;
-            top: 50%;
-            right: 0px;
-            z-index: 1;
-            margin: auto;
-            -webkit-transform: translate(0,-50%);
-            transform: translate(0,-50%);
-        }
-    </style>
 @endsection
 @section('content')
     <!-- Content -->
@@ -140,7 +129,7 @@
                                         <header class="panel-heading">
                                             <h6 class="panel-title">
                                                 Company
-                                                <div class="panel-actions">
+                                                <div class="panel-actions panel-actions-keep">
                                                     <button type="button" id="add_field_company" class="btn btn-floating btn-success btn-sm shadow-none"><i class="wb-plus" aria-hidden="true"></i></button>
                                                 </div>
                                             </h6>
@@ -202,7 +191,7 @@
                                         <div class="example">
                                             <header class="panel-heading">
                                                 <h6 class="panel-title">
-                                                    <div class="panel-actions">
+                                                    <div class="panel-actions panel-actions-keep">
                                                         <button type="button" id="remove_field_company_2" class="btn btn-floating btn-danger btn-sm shadow-none"><i class="wb-close" aria-hidden="true"></i></button>
                                                     </div>
                                                 </h6>
@@ -263,7 +252,7 @@
                                         <div class="example">
                                             <header class="panel-heading">
                                                 <h6 class="panel-title">
-                                                    <div class="panel-actions">
+                                                    <div class="panel-actions panel-actions-keep">
                                                         <button type="button" id="remove_field_company_3" class="btn btn-floating btn-danger btn-sm shadow-none"><i class="wb-close" aria-hidden="true"></i></button>
                                                     </div>
                                                 </h6>

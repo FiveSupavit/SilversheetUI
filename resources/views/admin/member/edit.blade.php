@@ -146,7 +146,7 @@
 
                         <div class="panel panel-bordered border">
                             <h3 class="panel-title">Activity & Note</h3>
-                            <div class="panel-actions">
+                            <div class="panel-actions panel-actions-keep">
                                 <button type="button" class="btn btn-success">ADD NOTE</button>
                             </div>
                         </div>

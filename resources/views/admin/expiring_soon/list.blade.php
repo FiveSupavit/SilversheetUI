@@ -40,7 +40,7 @@
                                     <small>Surgery - Orthopaedic</small><br>
                                     <small class="yellow-800 font-weight-bold">Expiring Soon</small>
                                 </div>
-                                <div class="panel-actions">
+                                <div class="panel-actions panel-actions-keep">
 {{--                                    <a  href="{{ url('admin/verified_certificate/certificate') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>--}}
                                     <a  href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>

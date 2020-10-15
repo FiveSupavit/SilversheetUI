@@ -39,7 +39,7 @@
                                     <small>NPI 1255421467</small><br>
                                     <small>Pain Medicine</small><br>
                                 </div>
-                                <div class="panel-actions">
+                                <div class="panel-actions panel-actions-keep">
                                     <a  href="{{ url('admin/need_input/certificate') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                                     <small>NPI 1346583820</small><br>
                                     <small>Pain Management/Anesthesia</small><br>
                                 </div>
-                                <div class="panel-actions">
+                                <div class="panel-actions panel-actions-keep">
                                     <a href="{{ url('admin/need_input/certificate') }}" aria-expanded="false"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
