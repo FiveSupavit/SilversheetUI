@@ -146,17 +146,22 @@
                                             <select type="text" class="form-control" id="input_position_1">
                                                 <option value="" disabled selected>Select Position</option>
                                                 <option value="doctor">Doctor</option>
+                                                <option value="pa">PA</option>
                                                 <option value="nurse">Nurse</option>
-                                                <option value="staff">Other Staff</option>
+                                                <option value="CRNA">CRNA/Anesthesiologist</option>
+                                                <option value="rt">RT</option>
+                                                <option value="st">ST</option>
+                                                <option value="ma">MA</option>
+                                                <option value="staff">Staff</option>
                                             </select>
                                         </div>
                                     </div>
-                                    <!-- Start Doctor Detail -->
+                                    <!-- Start Doctor Detail1 --> <!-- PA , CRNA/Anesthesiologist ใช้ด้วย -->
                                     <div id="doctor_detail_1">
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">License Type: </label>
                                             <div class="col-md-9">
-                                                <select type="text" class="form-control">
+                                                <select type="text" class="form-control" id="license_type_doctor1">
                                                     <option value="" disabled selected>Select License Type</option>
                                                     <option value="Type1">Type1</option>
                                                     <option value="Type2">Type2</option>
@@ -166,19 +171,99 @@
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">NPI Number: </label>
                                             <div class="col-md-9">
-                                                <input type="number" class="form-control" name="npi_number" placeholder=""
+                                                <input type="number" class="form-control" id="npi_number_doctor1" placeholder=""
                                                        autocomplete="off" />
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">Primary Specialty: </label>
                                             <div class="col-md-9">
-                                                <input type="text" class="form-control" name="primary_specialty" placeholder=""
+                                                <input type="text" class="form-control" id="primary_specialty_doctor1" placeholder=""
                                                        autocomplete="off" />
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End Doctor Detail -->
+                                    <!-- End Doctor Detail1 -->
+                                    <!-- Start Nurse Detail1 -->
+                                    <div id="nurse_detail_1">
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">Nurse Type: </label>
+                                            <div class="col-md-9">
+                                                <select type="text" class="form-control" id="nurse_type1">
+                                                    <option value="" disabled selected>Select Nurse Type</option>
+                                                    <option value="Registered Nurse(RN)">Registered Nurse(RN)</option>
+                                                    <option value="Licensed Practical Nurse(LPN)">Licensed Practical Nurse(LPN)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">License Number: </label>
+                                            <div class="col-md-9">
+                                                <input type="number" class="form-control" id="license_number_nurse1" placeholder=""
+                                                       autocomplete="off" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label"></label>
+                                            <div class="col-md-9">
+                                                <div class="radio-custom radio-default radio-inline">
+                                                    <input type="radio" id="radio_nurse_practice1" name="inputRadioNurse1" />
+                                                    <label for="radio_nurse_practice1">Nurse Practitioner</label>
+                                                </div>
+                                                <div class="radio-custom radio-default radio-inline">
+                                                    <input type="radio" id="radio_nurse1" name="inputRadioNurse1" checked />
+                                                    <label for="radio_nurse1">Nurse</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Nurse Detail1 -->
+                                    <!-- Start RT Detail1 --> <!-- ST ใช้ด้วย -->
+                                    <div id="rt_detail_1">
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">License Type: </label>
+                                            <div class="col-md-9">
+                                                <select type="text" class="form-control" id="license_type_rt1">
+                                                    <option value="" disabled selected>Select License Type</option>
+                                                    <option value="Type1">Type1</option>
+                                                    <option value="Type2">Type2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End RT Detail1 -->
+                                    <!-- Start MA Detail1 -->
+                                    <div id="ma_detail_1">
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">MA Certificate: </label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" id="ma_certificate1" placeholder=""
+                                                       autocomplete="off" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End MA Detail1 -->
+                                    <!-- Start Staff Detail1 -->
+                                    <div id="staff_detail_1">
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">Staff Type: </label>
+                                            <div class="col-md-9">
+                                                <select type="text" class="form-control" id="staff_type1">
+                                                    <option value="" disabled selected>Select Staff Type</option>
+                                                    <option value="Type1">Type1</option>
+                                                    <option value="Type2">Type2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">Job Title: </label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" id="job_title_staff1" placeholder=""
+                                                       autocomplete="off" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Staff Detail1 -->
                                     <div id="company_detail_2">
                                         <hr>
                                         <div class="example">
@@ -207,16 +292,22 @@
                                                 <select type="text" class="form-control" id="input_position_2">
                                                     <option value="" disabled selected>Select Position</option>
                                                     <option value="doctor">Doctor</option>
+                                                    <option value="pa">PA</option>
                                                     <option value="nurse">Nurse</option>
-                                                    <option value="staff">Other Staff</option>
+                                                    <option value="CRNA">CRNA/Anesthesiologist</option>
+                                                    <option value="rt">RT</option>
+                                                    <option value="st">ST</option>
+                                                    <option value="ma">MA</option>
+                                                    <option value="staff">Staff</option>
                                                 </select>
                                             </div>
                                         </div>
+                                        <!-- Start Doctor Detail2 --> <!-- PA , CRNA/Anesthesiologist ใช้ด้วย -->
                                         <div id="doctor_detail_2">
                                             <div class="form-group row">
                                                 <label class="col-md-3 form-control-label">License Type: </label>
                                                 <div class="col-md-9">
-                                                    <select type="text" class="form-control">
+                                                    <select type="text" class="form-control" id="license_type_doctor2">
                                                         <option value="" disabled selected>Select License Type</option>
                                                         <option value="Type1">Type1</option>
                                                         <option value="Type2">Type2</option>
@@ -226,18 +317,99 @@
                                             <div class="form-group row">
                                                 <label class="col-md-3 form-control-label">NPI Number: </label>
                                                 <div class="col-md-9">
-                                                    <input type="number" class="form-control" name="npi_number" placeholder=""
+                                                    <input type="number" class="form-control" id="npi_number_doctor2" placeholder=""
                                                            autocomplete="off" />
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-md-3 form-control-label">Primary Specialty: </label>
                                                 <div class="col-md-9">
-                                                    <input type="text" class="form-control" name="primary_specialty" placeholder=""
+                                                    <input type="text" class="form-control" id="primary_specialty_doctor2" placeholder=""
                                                            autocomplete="off" />
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- End Doctor Detail2 -->
+                                        <!-- Start Nurse Detail2 -->
+                                        <div id="nurse_detail_2">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Nurse Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control" id="nurse_type2">
+                                                        <option value="" disabled selected>Select Nurse Type</option>
+                                                        <option value="Registered Nurse(RN)">Registered Nurse(RN)</option>
+                                                        <option value="Licensed Practical Nurse(LPN)">Licensed Practical Nurse(LPN)</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">License Number: </label>
+                                                <div class="col-md-9">
+                                                    <input type="number" class="form-control" id="license_number_nurse2" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label"></label>
+                                                <div class="col-md-9">
+                                                    <div class="radio-custom radio-default radio-inline">
+                                                        <input type="radio" id="radio_nurse_practice2" name="inputRadioNurse2" />
+                                                        <label for="radio_nurse_practice2">Nurse Practitioner</label>
+                                                    </div>
+                                                    <div class="radio-custom radio-default radio-inline">
+                                                        <input type="radio" id="radio_nurse2" name="inputRadioNurse2" checked />
+                                                        <label for="radio_nurse2">Nurse</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Nurse Detail2 -->
+                                        <!-- Start RT Detail2 --> <!-- ST ใช้ด้วย -->
+                                        <div id="rt_detail_2">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">License Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control" id="license_type_rt2">
+                                                        <option value="" disabled selected>Select License Type</option>
+                                                        <option value="Type1">Type1</option>
+                                                        <option value="Type2">Type2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End RT Detail2 -->
+                                        <!-- Start MA Detail2 -->
+                                        <div id="ma_detail_2">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">MA Certificate: </label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" id="ma_certificate2" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End MA Detail2 -->
+                                        <!-- Start Staff Detail2 -->
+                                        <div id="staff_detail_2">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Staff Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control" id="staff_type2">
+                                                        <option value="" disabled selected>Select Staff Type</option>
+                                                        <option value="Type1">Type1</option>
+                                                        <option value="Type2">Type2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Job Title: </label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" id="job_title_staff1" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Staff Detail2 -->
                                     </div>
                                     <div id="company_detail_3">
                                         <hr>
@@ -253,7 +425,7 @@
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">Company: </label>
                                             <div class="col-md-9">
-                                                <select type="text" class="form-control" id="company1">
+                                                <select type="text" class="form-control" id="company3">
                                                     <option value="" disabled selected>Select Company</option>
                                                     <option value="Company A">Company A</option>
                                                     <option value="Company B">Company B</option>
@@ -267,16 +439,22 @@
                                                 <select type="text" class="form-control" id="input_position_3">
                                                     <option value="" disabled selected>Select Position</option>
                                                     <option value="doctor">Doctor</option>
+                                                    <option value="pa">PA</option>
                                                     <option value="nurse">Nurse</option>
-                                                    <option value="staff">Other Staff</option>
+                                                    <option value="CRNA">CRNA/Anesthesiologist</option>
+                                                    <option value="rt">RT</option>
+                                                    <option value="st">ST</option>
+                                                    <option value="ma">MA</option>
+                                                    <option value="staff">Staff</option>
                                                 </select>
                                             </div>
                                         </div>
+                                        <!-- Start Doctor Detail3 --> <!-- PA , CRNA/Anesthesiologist ใช้ด้วย -->
                                         <div id="doctor_detail_3">
                                             <div class="form-group row">
                                                 <label class="col-md-3 form-control-label">License Type: </label>
                                                 <div class="col-md-9">
-                                                    <select type="text" class="form-control">
+                                                    <select type="text" class="form-control" id="license_type_doctor3">
                                                         <option value="" disabled selected>Select License Type</option>
                                                         <option value="Type1">Type1</option>
                                                         <option value="Type2">Type2</option>
@@ -286,18 +464,99 @@
                                             <div class="form-group row">
                                                 <label class="col-md-3 form-control-label">NPI Number: </label>
                                                 <div class="col-md-9">
-                                                    <input type="number" class="form-control" name="npi_number" placeholder=""
+                                                    <input type="number" class="form-control" id="npi_number_doctor3" placeholder=""
                                                            autocomplete="off" />
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-md-3 form-control-label">Primary Specialty: </label>
                                                 <div class="col-md-9">
-                                                    <input type="text" class="form-control" name="primary_specialty" placeholder=""
+                                                    <input type="text" class="form-control" id="primary_specialty_doctor3" placeholder=""
                                                            autocomplete="off" />
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- End Doctor Detail3 -->
+                                        <!-- Start Nurse Detail3 -->
+                                        <div id="nurse_detail_3">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Nurse Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control" id="nurse_type3">
+                                                        <option value="" disabled selected>Select Nurse Type</option>
+                                                        <option value="Registered Nurse(RN)">Registered Nurse(RN)</option>
+                                                        <option value="Licensed Practical Nurse(LPN)">Licensed Practical Nurse(LPN)</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">License Number: </label>
+                                                <div class="col-md-9">
+                                                    <input type="number" class="form-control" id="license_number_nurse2" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label"></label>
+                                                <div class="col-md-9">
+                                                    <div class="radio-custom radio-default radio-inline">
+                                                        <input type="radio" id="radio_nurse_practice2" name="inputRadioNurse2" />
+                                                        <label for="radio_nurse_practice2">Nurse Practitioner</label>
+                                                    </div>
+                                                    <div class="radio-custom radio-default radio-inline">
+                                                        <input type="radio" id="radio_nurse2" name="inputRadioNurse2" checked />
+                                                        <label for="radio_nurse2">Nurse</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Nurse Detail3 -->
+                                        <!-- Start RT Detail3 --> <!-- ST ใช้ด้วย -->
+                                        <div id="rt_detail_3">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">License Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control" id="license_type_rt3">
+                                                        <option value="" disabled selected>Select License Type</option>
+                                                        <option value="Type1">Type1</option>
+                                                        <option value="Type2">Type2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End RT Detail3 -->
+                                        <!-- Start MA Detail3 -->
+                                        <div id="ma_detail_3">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">MA Certificate: </label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" id="ma_certificate3" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End MA Detail3 -->
+                                        <!-- Start Staff Detail3 -->
+                                        <div id="staff_detail_3">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Staff Type: </label>
+                                                <div class="col-md-9">
+                                                    <select type="text" class="form-control" id="staff_type3">
+                                                        <option value="" disabled selected>Select Staff Type</option>
+                                                        <option value="Type1">Type1</option>
+                                                        <option value="Type2">Type2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 form-control-label">Job Title: </label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" id="job_title_staff1" placeholder=""
+                                                           autocomplete="off" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Staff Detail3 -->
                                     </div>
 
                                     <header class="panel-heading">
@@ -400,11 +659,26 @@
     <script>
         $( document ).ready(function() {
             $('#user_detail').css('display','none');
+
             $('#doctor_detail_1').css('display','none');
+            $('#nurse_detail_1').css('display','none');
+            $('#rt_detail_1').css('display','none');
+            $('#ma_detail_1').css('display','none');
+            $('#staff_detail_1').css('display','none');
+
             $('#company_detail_2').css('display','none');
             $('#doctor_detail_2').css('display','none');
+            $('#nurse_detail_2').css('display','none');
+            $('#rt_detail_2').css('display','none');
+            $('#ma_detail_2').css('display','none');
+            $('#staff_detail_2').css('display','none');
+
             $('#company_detail_3').css('display','none');
             $('#doctor_detail_3').css('display','none');
+            $('#nurse_detail_3').css('display','none');
+            $('#rt_detail_3').css('display','none');
+            $('#ma_detail_3').css('display','none');
+            $('#staff_detail_3').css('display','none');
         });
 
         $("#role").change(function () {
@@ -416,26 +690,104 @@
         });
 
         $("#input_position_1").change(function () {
-            if($(this).val() == "doctor") {
+            if($(this).val() == "doctor" || $(this).val() == "pa" || $(this).val() == "CRNA") {
                 $('#doctor_detail_1').css('display','block');
-            } else  {
+                $('#nurse_detail_1').css('display','none');
+                $('#rt_detail_1').css('display','none');
+                $('#ma_detail_1').css('display','none');
+                $('#staff_detail_1').css('display','none');
+            } else  if($(this).val() == "nurse") {
                 $('#doctor_detail_1').css('display','none');
+                $('#nurse_detail_1').css('display','block');
+                $('#rt_detail_1').css('display','none');
+                $('#ma_detail_1').css('display','none');
+                $('#staff_detail_1').css('display','none');
+            } else  if($(this).val() == "rt" || $(this).val() == "st") {
+                $('#doctor_detail_1').css('display','none');
+                $('#nurse_detail_1').css('display','none');
+                $('#rt_detail_1').css('display','block');
+                $('#ma_detail_1').css('display','none');
+                $('#staff_detail_1').css('display','none');
+            } else  if($(this).val() == "ma") {
+                $('#doctor_detail_1').css('display','none');
+                $('#nurse_detail_1').css('display','none');
+                $('#rt_detail_1').css('display','none');
+                $('#ma_detail_1').css('display','block');
+                $('#staff_detail_1').css('display','none');
+            } else  if($(this).val() == "staff") {
+                $('#doctor_detail_1').css('display','none');
+                $('#nurse_detail_1').css('display','none');
+                $('#rt_detail_1').css('display','none');
+                $('#ma_detail_1').css('display','none');
+                $('#staff_detail_1').css('display','block');
             }
         });
 
         $("#input_position_2").change(function () {
-            if($(this).val() == "doctor") {
+            if($(this).val() == "doctor" || $(this).val() == "pa" || $(this).val() == "CRNA") {
                 $('#doctor_detail_2').css('display','block');
-            } else  {
+                $('#nurse_detail_2').css('display','none');
+                $('#rt_detail_2').css('display','none');
+                $('#ma_detail_2').css('display','none');
+                $('#staff_detail_2').css('display','none');
+            } else  if($(this).val() == "nurse") {
                 $('#doctor_detail_2').css('display','none');
+                $('#nurse_detail_2').css('display','block');
+                $('#rt_detail_2').css('display','none');
+                $('#ma_detail_2').css('display','none');
+                $('#staff_detail_2').css('display','none');
+            } else  if($(this).val() == "rt" || $(this).val() == "st") {
+                $('#doctor_detail_2').css('display','none');
+                $('#nurse_detail_2').css('display','none');
+                $('#rt_detail_2').css('display','block');
+                $('#ma_detail_2').css('display','none');
+                $('#staff_detail_2').css('display','none');
+            } else  if($(this).val() == "ma") {
+                $('#doctor_detail_2').css('display','none');
+                $('#nurse_detail_2').css('display','none');
+                $('#rt_detail_2').css('display','none');
+                $('#ma_detail_2').css('display','block');
+                $('#staff_detail_2').css('display','none');
+            } else  if($(this).val() == "staff") {
+                $('#doctor_detail_2').css('display','none');
+                $('#nurse_detail_2').css('display','none');
+                $('#rt_detail_2').css('display','none');
+                $('#ma_detail_2').css('display','none');
+                $('#staff_detail_2').css('display','block');
             }
         });
 
         $("#input_position_3").change(function () {
-            if($(this).val() == "doctor") {
+            if($(this).val() == "doctor" || $(this).val() == "pa" || $(this).val() == "CRNA") {
                 $('#doctor_detail_3').css('display','block');
-            } else  {
+                $('#nurse_detail_3').css('display','none');
+                $('#rt_detail_3').css('display','none');
+                $('#ma_detail_3').css('display','none');
+                $('#staff_detail_3').css('display','none');
+            } else  if($(this).val() == "nurse") {
                 $('#doctor_detail_3').css('display','none');
+                $('#nurse_detail_3').css('display','block');
+                $('#rt_detail_3').css('display','none');
+                $('#ma_detail_3').css('display','none');
+                $('#staff_detail_3').css('display','none');
+            } else  if($(this).val() == "rt" || $(this).val() == "st") {
+                $('#doctor_detail_3').css('display','none');
+                $('#nurse_detail_3').css('display','none');
+                $('#rt_detail_3').css('display','block');
+                $('#ma_detail_3').css('display','none');
+                $('#staff_detail_3').css('display','none');
+            } else  if($(this).val() == "ma") {
+                $('#doctor_detail_3').css('display','none');
+                $('#nurse_detail_3').css('display','none');
+                $('#rt_detail_3').css('display','none');
+                $('#ma_detail_3').css('display','block');
+                $('#staff_detail_3').css('display','none');
+            } else  if($(this).val() == "staff") {
+                $('#doctor_detail_3').css('display','none');
+                $('#nurse_detail_3').css('display','none');
+                $('#rt_detail_3').css('display','none');
+                $('#ma_detail_3').css('display','none');
+                $('#staff_detail_3').css('display','block');
             }
         });
 
@@ -450,10 +802,22 @@
 
         $("#remove_field_company_2").click(function () {
             $('#company_detail_2').css('display','none');
+            $('#company_detail_2').find("input,select").val('');
+            $('#doctor_detail_2').css('display','none');
+            $('#nurse_detail_2').css('display','none');
+            $('#rt_detail_2').css('display','none');
+            $('#ma_detail_2').css('display','none');
+            $('#staff_detail_2').css('display','none');
         });
 
         $("#remove_field_company_3").click(function () {
             $('#company_detail_3').css('display','none');
+            $('#company_detail_3').find("input,select").val('');
+            $('#doctor_detail_3').css('display','none');
+            $('#nurse_detail_3').css('display','none');
+            $('#rt_detail_3').css('display','none');
+            $('#ma_detail_3').css('display','none');
+            $('#staff_detail_3').css('display','none');
         });
     </script>
 @endsection
