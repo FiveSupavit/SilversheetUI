@@ -12,9 +12,14 @@
             <div class="col-md-4 col-lg-2">
                 <select type="text" class="form-control" id="filter_position">
                     <option value="" disabled selected>Filter Position</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Nurse">Nurse</option>
-                    <option value="Staff">Staff</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="pa">PA</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="CRNA">CRNA/Anesthesiologist</option>
+                    <option value="rt">RT</option>
+                    <option value="st">ST</option>
+                    <option value="ma">MA</option>
+                    <option value="staff">Staff</option>
                 </select>
             </div>
         </div>
