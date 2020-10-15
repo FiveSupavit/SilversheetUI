@@ -74,7 +74,7 @@
         <div class="page-login-main animation-slide-right animation-duration-1">
             <div class="brand hidden-md-up">
                 <img class="brand-img" src="../../assets/images/logo-colored@2x.png" alt="...">
-                <h3 class="brand-text font-size-40">Remark</h3>
+                <h3 class="brand-text font-size-30">Silversheet</h3>
             </div>
             <h3 class="font-size-24">Sign In</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -103,8 +103,8 @@
             <p>No account? <a href="register-v2.html">Sign Up</a></p>
 
             <footer class="page-copyright">
-                <p>WEBSITE BY Creation Studio</p>
-                <p>© 2018. All RIGHT RESERVED.</p>
+                <p>WEBSITE BY FireExit Cooprtation Co., Ltd.</p>
+                <p>© 2020. All RIGHT RESERVED.</p>
                 <div class="social">
                     <a class="btn btn-icon btn-round social-twitter mx-5" href="javascript:void(0)">
                         <i class="icon bd-twitter" aria-hidden="true"></i>
