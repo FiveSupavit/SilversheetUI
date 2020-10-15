@@ -6,7 +6,7 @@
 @section('content')
     <div class="page-header">
         <div class="row row-lg">
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-4 col-lg-4">
                 <input type="text" class="form-control" id="inputFocus" placeholder="Search by Name or NPI or Position">
             </div>
             <div class="col-md-4 col-lg-2">
@@ -17,7 +17,7 @@
                     <option value="Staff">Staff</option>
                 </select>
             </div>
-            <div class="col-md-5 col-lg-3">
+            <div class="col-md-4 col-lg-3">
                 <select type="text" class="form-control" id="filter_expire_status">
                     <option value="" disabled selected>Filter Working Status</option>
                     <option value="Working">Working</option>
