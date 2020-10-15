@@ -48,7 +48,7 @@
                                     <small>Pain Medicine</small><br>
                                 </div>
                                 <div class="panel-actions panel-actions-keep">
-                                    <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -66,7 +66,7 @@
                                     <small>Pain Management/Anesthesia</small><br>
                                 </div>
                                 <div class="panel-actions panel-actions-keep">
-                                    <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -85,7 +85,7 @@
                                     <small class="yellow-800 font-weight-bold">Expiring Soon</small>
                                 </div>
                                 <div class="panel-actions panel-actions-keep">
-                                    <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -103,7 +103,7 @@
                                     <small>Pain Medicine</small><br>
                                 </div>
                                 <div class="panel-actions panel-actions-keep">
-                                    <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -122,7 +122,7 @@
                                     <small class="red-700 font-weight-bold">Expired</small>
                                 </div>
                                 <div class="panel-actions panel-actions-keep">
-                                    <a href=""><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
+                                    <a href="{{ url('admin/member/edit') }}"><i class="wb-settings btn btn-icon btn-default btn-outline" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -135,11 +135,13 @@
                 <div class="panel panel-bordered">
                     <div class="panel-heading">
                         <h3 class="panel-title">Add Member
-                            <a href="{{ url('admin/member/create') }}">
-                                <button type="button" class="btn btn-floating btn-success btn-sm">
-                                    <i class="icon wb-plus" aria-hidden="true"></i>
-                                </button>
-                            </a>
+                            <div class="panel-actions panel-actions-keep">
+                                <a href="{{ url('admin/member/create') }}">
+                                    <button type="button" class="btn btn-floating btn-success btn-sm">
+                                        <i class="wb-plus" aria-hidden="true"></i>
+                                    </button>
+                                </a>
+                            </div>
                         </h3>
                     </div>
                     <div class="panel-body">
