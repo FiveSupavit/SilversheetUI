@@ -797,6 +797,9 @@
             }
             else if ($('#company_detail_3:visible').length == 0) {
                 $('#company_detail_3').css('display','block');
+                if($('#company_detail_3:visible').length == 1) {
+                    $("#add_field_company").css('display','none');
+                }
             }
         });
 
@@ -808,6 +811,9 @@
             $('#rt_detail_2').css('display','none');
             $('#ma_detail_2').css('display','none');
             $('#staff_detail_2').css('display','none');
+            if($('#company_detail_2:visible').length == 0) {
+                $("#add_field_company").css('display','block');
+            }
         });
 
         $("#remove_field_company_3").click(function () {
@@ -818,6 +824,9 @@
             $('#rt_detail_3').css('display','none');
             $('#ma_detail_3').css('display','none');
             $('#staff_detail_3').css('display','none');
+            if($('#company_detail_3:visible').length == 0) {
+                $("#add_field_company").css('display','block');
+            }
         });
     </script>
 @endsection
