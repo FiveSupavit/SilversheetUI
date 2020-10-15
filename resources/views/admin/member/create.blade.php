@@ -3,6 +3,17 @@
 @section('style')
     <link rel="stylesheet" href="{{asset('global/vendor/bootstrap-datepicker/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{asset('global/vendor/dropify/dropify.css')}}">
+    <style>
+        .panel-actions {
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            z-index: 1;
+            margin: auto;
+            -webkit-transform: translate(0,-50%);
+            transform: translate(0,-50%);
+        }
+    </style>
 @endsection
 @section('content')
     <!-- Content -->
@@ -10,15 +21,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel">
-{{--                    <header class="panel-heading">--}}
-{{--                        <h3 class="panel-title">--}}
-{{--                            Add Member--}}
-{{--                        </h3>--}}
-{{--                    </header>--}}
                     <form class="form-horizontal">
                         <div class="panel-body container-fluid">
+                            <!-- Example Horizontal Form -->
                             <div class="col-md-12 col-lg-6 offset-lg-3">
-                                <!-- Example Horizontal Form -->
                                 <div class="form-group row">
                                     <label class="col-md-3 form-control-label">First Name: </label>
                                     <div class="col-md-9">
@@ -73,125 +79,123 @@
 
                                 <!-- Start User Detail -->
                                 <div id="user_detail">
-                                    <div id="user_detail">
-                                        <div class="form-group row">
-                                            <label class="col-md-3 form-control-label" for="birthdate">Birth Date:</label>
-                                            <div class="col-md-9">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" id="birthdate"
-                                                           data-plugin="datepicker">
-                                                    <div class="input-group-append">
-                                                <span class="input-group-text">
-                                                  <i class="icon wb-calendar" aria-hidden="true"></i>
-                                                </span>
-                                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 form-control-label" for="birthdate">Birth Date:</label>
+                                        <div class="col-md-9">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="birthdate"
+                                                       data-plugin="datepicker">
+                                                <div class="input-group-append">
+                                            <span class="input-group-text">
+                                              <i class="icon wb-calendar" aria-hidden="true"></i>
+                                            </span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group row">
-                                            <label class="col-md-3 form-control-label" for="active_since">Active Since:</label>
-                                            <div class="col-md-9">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" id="active_since"
-                                                           data-plugin="datepicker">
-                                                    <div class="input-group-append">
-                                                <span class="input-group-text">
-                                                  <i class="icon wb-calendar" aria-hidden="true"></i>
-                                                </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="col-md-3 form-control-label" for="expired_date">Expired Date:</label>
-                                            <div class="col-md-9">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" id="expired_date"
-                                                           data-plugin="datepicker">
-                                                    <div class="input-group-append">
-                                                <span class="input-group-text">
-                                                  <i class="icon wb-calendar" aria-hidden="true"></i>
-                                                </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="col-md-3 form-control-label">Status: </label>
-                                            <div class="col-md-9">
-                                                <select type="text" class="form-control" placeholder="Search by name or NPI">
-                                                    <option value="" disabled selected>Select Status</option>
-                                                    <option value="Active">Active</option>
-                                                    <option value="Inactive">Inactive</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <header class="panel-heading">
-                                            <h6 class="panel-title">
-                                                Company
-                                                <div class="panel-actions panel-actions-keep">
-                                                    <button type="button" id="add_field_company" class="btn btn-floating btn-success btn-sm shadow-none"><i class="wb-plus" aria-hidden="true"></i></button>
-                                                </div>
-                                            </h6>
-                                        </header>
-                                        <div class="form-group row">
-                                            <label class="col-md-3 form-control-label">Company: </label>
-                                            <div class="col-md-9">
-                                                <select type="text" class="form-control" id="company1">
-                                                    <option value="" disabled selected>Select Company</option>
-                                                    <option value="Company A">Company A</option>
-                                                    <option value="Company B">Company B</option>
-                                                    <option value="Company C">Company C</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="col-md-3 form-control-label">Position: </label>
-                                            <div class="col-md-9">
-                                                <select type="text" class="form-control" id="input_position_1">
-                                                    <option value="" disabled selected>Select Position</option>
-                                                    <option value="doctor">Doctor</option>
-                                                    <option value="nurse">Nurse</option>
-                                                    <option value="staff">Other Staff</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <!-- Start Doctor Detail -->
-                                        <div id="doctor_detail_1">
-                                            <div class="form-group row">
-                                                <label class="col-md-3 form-control-label">License Type: </label>
-                                                <div class="col-md-9">
-                                                    <select type="text" class="form-control">
-                                                        <option value="" disabled selected>Select License Type</option>
-                                                        <option value="Type1">Type1</option>
-                                                        <option value="Type2">Type2</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label class="col-md-3 form-control-label">NPI Number: </label>
-                                                <div class="col-md-9">
-                                                    <input type="number" class="form-control" name="npi_number" placeholder=""
-                                                           autocomplete="off" />
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label class="col-md-3 form-control-label">Primary Specialty: </label>
-                                                <div class="col-md-9">
-                                                    <input type="text" class="form-control" name="primary_specialty" placeholder=""
-                                                           autocomplete="off" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Doctor Detail -->
                                     </div>
-                                    <!-- End Add field Company Detail -->
+                                    <div class="form-group row">
+                                        <label class="col-md-3 form-control-label" for="active_since">Active Since:</label>
+                                        <div class="col-md-9">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="active_since"
+                                                       data-plugin="datepicker">
+                                                <div class="input-group-append">
+                                            <span class="input-group-text">
+                                              <i class="icon wb-calendar" aria-hidden="true"></i>
+                                            </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 form-control-label" for="expired_date">Expired Date:</label>
+                                        <div class="col-md-9">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="expired_date"
+                                                       data-plugin="datepicker">
+                                                <div class="input-group-append">
+                                            <span class="input-group-text">
+                                              <i class="icon wb-calendar" aria-hidden="true"></i>
+                                            </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 form-control-label">Status: </label>
+                                        <div class="col-md-9">
+                                            <select type="text" class="form-control" placeholder="Search by name or NPI">
+                                                <option value="" disabled selected>Select Status</option>
+                                                <option value="Active">Active</option>
+                                                <option value="Inactive">Inactive</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <header class="panel-heading">
+                                        <h6 class="panel-title">
+                                            Company
+                                            <div class="panel-actions">
+                                                <button type="button" id="add_field_company" class="btn btn-floating btn-success btn-sm shadow-none"><i class="wb-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </h6>
+                                    </header>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 form-control-label">Company: </label>
+                                        <div class="col-md-9">
+                                            <select type="text" class="form-control" id="company1">
+                                                <option value="" disabled selected>Select Company</option>
+                                                <option value="Company A">Company A</option>
+                                                <option value="Company B">Company B</option>
+                                                <option value="Company C">Company C</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 form-control-label">Position: </label>
+                                        <div class="col-md-9">
+                                            <select type="text" class="form-control" id="input_position_1">
+                                                <option value="" disabled selected>Select Position</option>
+                                                <option value="doctor">Doctor</option>
+                                                <option value="nurse">Nurse</option>
+                                                <option value="staff">Other Staff</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- Start Doctor Detail -->
+                                    <div id="doctor_detail_1">
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">License Type: </label>
+                                            <div class="col-md-9">
+                                                <select type="text" class="form-control">
+                                                    <option value="" disabled selected>Select License Type</option>
+                                                    <option value="Type1">Type1</option>
+                                                    <option value="Type2">Type2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">NPI Number: </label>
+                                            <div class="col-md-9">
+                                                <input type="number" class="form-control" name="npi_number" placeholder=""
+                                                       autocomplete="off" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-3 form-control-label">Primary Specialty: </label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="primary_specialty" placeholder=""
+                                                       autocomplete="off" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Doctor Detail -->
                                     <div id="company_detail_2">
                                         <hr>
                                         <div class="example">
                                             <header class="panel-heading">
                                                 <h6 class="panel-title">
-                                                    <div class="panel-actions panel-actions-keep">
+                                                    <div class="panel-actions">
                                                         <button type="button" id="remove_field_company_2" class="btn btn-floating btn-danger btn-sm shadow-none"><i class="wb-close" aria-hidden="true"></i></button>
                                                     </div>
                                                 </h6>
@@ -245,14 +249,13 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Start Add field Company Detail -->
                                     </div>
                                     <div id="company_detail_3">
                                         <hr>
                                         <div class="example">
                                             <header class="panel-heading">
                                                 <h6 class="panel-title">
-                                                    <div class="panel-actions panel-actions-keep">
+                                                    <div class="panel-actions">
                                                         <button type="button" id="remove_field_company_3" class="btn btn-floating btn-danger btn-sm shadow-none"><i class="wb-close" aria-hidden="true"></i></button>
                                                     </div>
                                                 </h6>
@@ -307,6 +310,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <header class="panel-heading">
                                         <h6 class="panel-title">
                                             Other Legal Name
@@ -336,6 +340,7 @@
                                             <input type="text" class="form-control" name="other_sufname" placeholder="Other Legal Suf Name" autocomplete="off"/>
                                         </div>
                                     </div>
+
                                     <header class="panel-heading">
                                         <h6 class="panel-title">
                                             Personal Contact Info
@@ -379,8 +384,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- End User Detail -->
                             </div>
-                            <!-- End User Detail -->
                             <div class="col-md-12 col-lg-6 offset-lg-3">
                                 <div class="form-group row">
                                     <div class="col-md-9 offset-md-3">
@@ -388,8 +393,8 @@
                                         <button type="reset" class="btn btn-default btn-outline">Reset</button>
                                     </div>
                                 </div>
-                            <!-- End Example Horizontal Form -->
                             </div>
+                            <!-- End Example Horizontal Form -->
                         </div>
                     </form>
                 </div>
