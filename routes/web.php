@@ -39,6 +39,7 @@ Route::group([ 'prefix' => 'admin'], function () {
     Route::get('/setting/notification', 'App\Http\Controllers\Admin\SettingController@notification');
     Route::get('/setting/certificate', 'App\Http\Controllers\Admin\SettingController@certificate');
     Route::get('/setting/company', 'App\Http\Controllers\Admin\SettingController@company');
+    Route::get('/change_password', 'App\Http\Controllers\Admin\SettingController@changePassword');
     Route::get('/expired', 'App\Http\Controllers\Admin\ExpiredController@index');
     Route::get('/expiring_soon', 'App\Http\Controllers\Admin\ExpiringSoonController@index');
 });
@@ -48,4 +49,5 @@ Route::group([ 'prefix' => 'user'], function () {
     Route::get('/dashboard', 'App\Http\Controllers\User\DashboardController@index');
     Route::get('/verified_certificate', 'App\Http\Controllers\User\DashboardController@verifiedCertificate');
     Route::get('/certificate', 'App\Http\Controllers\User\DashboardController@certificate');
+    Route::get('/change_password', 'App\Http\Controllers\Admin\SettingController@changePasswordUser');
 });

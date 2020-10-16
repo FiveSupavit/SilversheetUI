@@ -11,15 +11,23 @@ class SettingController extends Controller
 //        return view('admin.setting.list');
 //    }
 
-    public function notification(){
+    public function notification() {
         return view('admin.setting.notification');
     }
 
-    public function certificate(){
+    public function certificate() {
         return view('admin.setting.certificate');
     }
 
-    public function company(){
+    public function company() {
         return view('admin.setting.company');
+    }
+
+    // รอ auth
+    public function changePassword() {
+        return view('admin.change_password');
+    }
+    public function changePasswordUser() {
+        return view('user.change_password');
     }
 }
