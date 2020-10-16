@@ -32,6 +32,7 @@
                                 <tr>
                                     <th>Name</th>
                                     <th>Address</th>
+                                    <th>Tel.</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -39,6 +40,7 @@
                                 <tr>
                                     <td>Company A</td>
                                     <td>2126  Robinson Court, Saginaw, Michigan, 48607</td>
+                                    <td>303-292-6370</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
@@ -47,6 +49,7 @@
                                 <tr>
                                     <td>Company B</td>
                                     <td>4206  Derek Drive, Wooster, Ohio, 44691</td>
+                                    <td>703-790-8954</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
@@ -55,6 +58,7 @@
                                 <tr>
                                     <td>Company C</td>
                                     <td>379  Roguski Road, Natchitoches, Louisiana, 71457</td>
+                                    <td>215-789-3632</td>
                                     <td class="actions">
                                         <a href="#" class="btn btn-sm btn-icon btn-pure btn-default on-default" data-target="#ModalEdit"
                                            data-toggle="modal"><i class="icon wb-edit" aria-hidden="true"></i></a>
@@ -119,6 +123,12 @@
                                 <input type="text" class="form-control" name="zip_code" placeholder="Zip Code" autocomplete="off"/>
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Tel.: </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="tel" placeholder="Tel" autocomplete="off"/>
+                            </div>
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -175,6 +185,12 @@
                             <label class="col-md-3 form-control-label">Zip Code: </label>
                             <div class="col-md-9">
                                 <input type="text" class="form-control" name="zip_code" placeholder="Zip Code" value="48607" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label">Tel.: </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="tel" placeholder="Tel" value="303-292-6370" autocomplete="off"/>
                             </div>
                         </div>
                     </form>
