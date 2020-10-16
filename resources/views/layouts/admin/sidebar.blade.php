@@ -25,7 +25,7 @@
                                 <a class="animsition-link" href="{{ url('admin/need_input') }}">
                                     <span class="site-menu-title">Need Input</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">2</span>
+                                        <span class="badge badge-info">2</span>
                                     </div>
                                 </a>
                             </li>
@@ -33,7 +33,7 @@
                                 <a class="animsition-link" href="{{ url('admin/need_attention') }}">
                                     <span class="site-menu-title">Need Attention</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">2</span>
+                                        <span class="badge badge-danger">2</span>
                                     </div>
                                 </a>
                             </li>
@@ -41,7 +41,7 @@
                                 <a class="animsition-link" href="{{ url('admin/verified_certificate') }}">
                                     <span class="site-menu-title">Verified Certificate</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">3</span>
+                                        <span class="badge badge-success">3</span>
                                     </div>
                                 </a>
                             </li>
@@ -49,7 +49,7 @@
                                 <a class="animsition-link" href="{{ url('admin/expired') }}">
                                     <span class="site-menu-title">Expired</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">1</span>
+                                        <span class="badge badge-dark">1</span>
                                     </div>
                                 </a>
                             </li>
@@ -57,7 +57,7 @@
                                 <a class="animsition-link" href="{{ url('admin/expiring_soon') }}">
                                     <span class="site-menu-title">Expiring Soon</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">1</span>
+                                        <span class="badge badge-warning">1</span>
                                     </div>
                                 </a>
                             </li>

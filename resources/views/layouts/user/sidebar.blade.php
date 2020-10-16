@@ -20,7 +20,7 @@
                                 <a class="animsition-link" href="{{ url('user/certificate') }}">
                                     <span class="site-menu-title">Need Input</span>
                                     <div class="site-menu-label">
-                                        <span class="badge badge-danger badge-round mr-25">6</span>
+                                        <span class="badge badge-info">6</span>
                                     </div>
                                 </a>
                             </li>

@@ -103,7 +103,7 @@
             <p>No account? <a href="register-v2.html">Sign Up</a></p>
 
             <footer class="page-copyright">
-                <p>WEBSITE BY FireExit Cooprtation Co., Ltd.</p>
+                <p>WEBSITE BY FireExit Cooperation Co., Ltd.</p>
                 <p>© 2020. All RIGHT RESERVED.</p>
                 <div class="social">
                     <a class="btn btn-icon btn-round social-twitter mx-5" href="javascript:void(0)">
