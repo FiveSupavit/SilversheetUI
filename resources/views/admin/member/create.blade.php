@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-md-4 col-form-label">Gender: </label>
-                                        <div class="col-md-8">
+                                        <div class="col-md-8 d-flex align-items-center">
                                             <div class="radio-custom radio-default radio-inline">
                                                 <input type="radio" id="inputHorizontalMale" name="inputRadioGender" />
                                                 <label for="inputHorizontalMale">Male</label>
