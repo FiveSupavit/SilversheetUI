@@ -20,8 +20,8 @@
             <form>
                 <div class="panel-body container-fluid">
                     <!-- Example Horizontal Form -->
-                    <div class="row row-lg">
-                        <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+                    <div class="row row-lg justify-content-center">
+                        <div class="col-md-8 col-lg-8">
                             <div class="example-wrap">
                                 <div class="example">
                                     <div class="form-group row">
@@ -644,7 +644,6 @@
                                     </div>
                                 </div>
                                 <!-- End User Detail -->
-
                                 <div class="form-group row">
                                     <div class="col-md-8 offset-md-4">
                                         <button type="button" class="btn btn-success">Submit</button>
