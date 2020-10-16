@@ -25,25 +25,25 @@
                             <div class="example-wrap">
                                 <div class="example">
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">First Name: </label>
+                                        <label class="col-md-4 col-form-label">First Name<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="firstname" placeholder="First Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="first_name" placeholder="First Name" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Middle Name: </label>
+                                        <label class="col-md-4 col-form-label">Middle Name </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="middlename" placeholder="Middle Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="middle_name" placeholder="Middle Name" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Last Name: </label>
+                                        <label class="col-md-4 col-form-label">Last Name<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="lastname" placeholder="Last Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="last_name" placeholder="Last Name" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Gender: </label>
+                                        <label class="col-md-4 col-form-label">Gender<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8 d-flex align-items-center">
                                             <div class="radio-custom radio-default radio-inline">
                                                 <input type="radio" id="inputHorizontalMale" name="inputRadioGender" />
@@ -57,7 +57,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Role: </label>
+                                        <label class="col-md-4 col-form-label">Role<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
                                             <select type="text" class="form-control" id="role">
                                                 <option value="" disabled selected>Select Role</option>
@@ -69,7 +69,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Email: </label>
+                                        <label class="col-md-4 col-form-label">Email<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
                                             <input type="email" class="form-control" name="email" placeholder="@email.com"
                                                    autocomplete="off" />
@@ -80,10 +80,10 @@
                                 <!-- Start User Detail -->
                                 <div id="user_detail">
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label" for="birthdate">Birth Date:</label>
+                                        <label class="col-md-4 col-form-label" for="birthdate">Birth Date<sup class="red-700">*</sup></label>
                                         <div class="col-md-8">
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="birthdate"
+                                                <input type="text" class="form-control" id="birth_date"
                                                        data-plugin="datepicker">
                                                 <div class="input-group-append">
                                         <span class="input-group-text">
@@ -94,7 +94,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label" for="active_since">Active Since:</label>
+                                        <label class="col-md-4 col-form-label" for="active_since">Active Since<sup class="red-700">*</sup></label>
                                         <div class="col-md-8">
                                             <div class="input-group">
                                                 <input type="text" class="form-control" id="active_since"
@@ -108,7 +108,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label" for="expired_date">Expired Date:</label>
+                                        <label class="col-md-4 col-form-label" for="expired_date">Expired Date<sup class="red-700">*</sup></label>
                                         <div class="col-md-8">
                                             <div class="input-group">
                                                 <input type="text" class="form-control" id="expired_date"
@@ -122,7 +122,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Status: </label>
+                                        <label class="col-md-4 col-form-label">Status<sup class="red-700">*</sup></label>
                                         <div class="col-md-8">
                                             <select type="text" class="form-control" placeholder="Search by name or NPI">
                                                 <option value="" disabled selected>Select Status</option>
@@ -141,7 +141,7 @@
                                         </h6>
                                     </header>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Company: </label>
+                                        <label class="col-md-4 col-form-label">Company<sup class="red-700">*</sup></label>
                                         <div class="col-md-8">
                                             <select type="text" class="form-control" id="company1">
                                                 <option value="" disabled selected>Select Company</option>
@@ -152,7 +152,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Position: </label>
+                                        <label class="col-md-4 col-form-label">Position<sup class="red-700">*</sup></label>
                                         <div class="col-md-8">
                                             <select type="text" class="form-control" id="input_position_1">
                                                 <option value="" disabled selected>Select Position</option>
@@ -170,7 +170,7 @@
                                     <!-- Start Doctor Detail1 --> <!-- PA , CRNA/Anesthesiologist ใช้ด้วย -->
                                     <div id="doctor_detail_1">
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">License Type: </label>
+                                            <label class="col-md-4 col-form-label">License Type </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="license_type_doctor1">
                                                     <option value="" disabled selected>Select License Type</option>
@@ -180,14 +180,14 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">NPI Number: </label>
+                                            <label class="col-md-4 col-form-label">NPI Number </label>
                                             <div class="col-md-8">
                                                 <input type="number" class="form-control" id="npi_number_doctor1" placeholder=""
                                                        autocomplete="off" />
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Primary Specialty: </label>
+                                            <label class="col-md-4 col-form-label">Primary Specialty </label>
                                             <div class="col-md-8">
                                                 <input type="text" class="form-control" id="primary_specialty_doctor1" placeholder=""
                                                        autocomplete="off" />
@@ -198,7 +198,7 @@
                                     <!-- Start Nurse Detail1 -->
                                     <div id="nurse_detail_1">
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Nurse Type: </label>
+                                            <label class="col-md-4 col-form-label">Nurse Type </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="nurse_type1">
                                                     <option value="" disabled selected>Select Nurse Type</option>
@@ -208,7 +208,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">License Number: </label>
+                                            <label class="col-md-4 col-form-label">License Number </label>
                                             <div class="col-md-8">
                                                 <input type="number" class="form-control" id="license_number_nurse1" placeholder=""
                                                        autocomplete="off" />
@@ -232,7 +232,7 @@
                                     <!-- Start RT Detail1 --> <!-- ST ใช้ด้วย -->
                                     <div id="rt_detail_1">
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">License Type: </label>
+                                            <label class="col-md-4 col-form-label">License Type </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="license_type_rt1">
                                                     <option value="" disabled selected>Select License Type</option>
@@ -246,7 +246,7 @@
                                     <!-- Start MA Detail1 -->
                                     <div id="ma_detail_1">
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">MA Certificate: </label>
+                                            <label class="col-md-4 col-form-label">MA Certificate </label>
                                             <div class="col-md-8">
                                                 <input type="text" class="form-control" id="ma_certificate1" placeholder=""
                                                        autocomplete="off" />
@@ -257,7 +257,7 @@
                                     <!-- Start Staff Detail1 -->
                                     <div id="staff_detail_1">
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Staff Type: </label>
+                                            <label class="col-md-4 col-form-label">Staff Type </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="staff_type1">
                                                     <option value="" disabled selected>Select Staff Type</option>
@@ -267,7 +267,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Job Title: </label>
+                                            <label class="col-md-4 col-form-label">Job Title </label>
                                             <div class="col-md-8">
                                                 <input type="text" class="form-control" id="job_title_staff1" placeholder=""
                                                        autocomplete="off" />
@@ -287,7 +287,7 @@
                                             </header>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Company: </label>
+                                            <label class="col-md-4 col-form-label">Company </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="company2">
                                                     <option value="" disabled selected>Select Company</option>
@@ -298,7 +298,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Position: </label>
+                                            <label class="col-md-4 col-form-label">Position </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="input_position_2">
                                                     <option value="" disabled selected>Select Position</option>
@@ -316,7 +316,7 @@
                                         <!-- Start Doctor Detail2 --> <!-- PA , CRNA/Anesthesiologist ใช้ด้วย -->
                                         <div id="doctor_detail_2">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">License Type: </label>
+                                                <label class="col-md-4 col-form-label">License Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="license_type_doctor2">
                                                         <option value="" disabled selected>Select License Type</option>
@@ -326,14 +326,14 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">NPI Number: </label>
+                                                <label class="col-md-4 col-form-label">NPI Number </label>
                                                 <div class="col-md-8">
                                                     <input type="number" class="form-control" id="npi_number_doctor2" placeholder=""
                                                            autocomplete="off" />
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Primary Specialty: </label>
+                                                <label class="col-md-4 col-form-label">Primary Specialty </label>
                                                 <div class="col-md-8">
                                                     <input type="text" class="form-control" id="primary_specialty_doctor2" placeholder=""
                                                            autocomplete="off" />
@@ -344,7 +344,7 @@
                                         <!-- Start Nurse Detail2 -->
                                         <div id="nurse_detail_2">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Nurse Type: </label>
+                                                <label class="col-md-4 col-form-label">Nurse Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="nurse_type2">
                                                         <option value="" disabled selected>Select Nurse Type</option>
@@ -354,7 +354,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">License Number: </label>
+                                                <label class="col-md-4 col-form-label">License Number </label>
                                                 <div class="col-md-8">
                                                     <input type="number" class="form-control" id="license_number_nurse2" placeholder=""
                                                            autocomplete="off" />
@@ -378,7 +378,7 @@
                                         <!-- Start RT Detail2 --> <!-- ST ใช้ด้วย -->
                                         <div id="rt_detail_2">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">License Type: </label>
+                                                <label class="col-md-4 col-form-label">License Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="license_type_rt2">
                                                         <option value="" disabled selected>Select License Type</option>
@@ -392,7 +392,7 @@
                                         <!-- Start MA Detail2 -->
                                         <div id="ma_detail_2">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">MA Certificate: </label>
+                                                <label class="col-md-4 col-form-label">MA Certificate </label>
                                                 <div class="col-md-8">
                                                     <input type="text" class="form-control" id="ma_certificate2" placeholder=""
                                                            autocomplete="off" />
@@ -403,7 +403,7 @@
                                         <!-- Start Staff Detail2 -->
                                         <div id="staff_detail_2">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Staff Type: </label>
+                                                <label class="col-md-4 col-form-label">Staff Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="staff_type2">
                                                         <option value="" disabled selected>Select Staff Type</option>
@@ -413,7 +413,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Job Title: </label>
+                                                <label class="col-md-4 col-form-label">Job Title </label>
                                                 <div class="col-md-8">
                                                     <input type="text" class="form-control" id="job_title_staff1" placeholder=""
                                                            autocomplete="off" />
@@ -434,7 +434,7 @@
                                             </header>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Company: </label>
+                                            <label class="col-md-4 col-form-label">Company </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="company3">
                                                     <option value="" disabled selected>Select Company</option>
@@ -445,7 +445,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-md-4 col-form-label">Position: </label>
+                                            <label class="col-md-4 col-form-label">Position </label>
                                             <div class="col-md-8">
                                                 <select type="text" class="form-control" id="input_position_3">
                                                     <option value="" disabled selected>Select Position</option>
@@ -463,7 +463,7 @@
                                         <!-- Start Doctor Detail3 --> <!-- PA , CRNA/Anesthesiologist ใช้ด้วย -->
                                         <div id="doctor_detail_3">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">License Type: </label>
+                                                <label class="col-md-4 col-form-label">License Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="license_type_doctor3">
                                                         <option value="" disabled selected>Select License Type</option>
@@ -473,14 +473,14 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">NPI Number: </label>
+                                                <label class="col-md-4 col-form-label">NPI Number </label>
                                                 <div class="col-md-8">
                                                     <input type="number" class="form-control" id="npi_number_doctor3" placeholder=""
                                                            autocomplete="off" />
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Primary Specialty: </label>
+                                                <label class="col-md-4 col-form-label">Primary Specialty </label>
                                                 <div class="col-md-8">
                                                     <input type="text" class="form-control" id="primary_specialty_doctor3" placeholder=""
                                                            autocomplete="off" />
@@ -491,7 +491,7 @@
                                         <!-- Start Nurse Detail3 -->
                                         <div id="nurse_detail_3">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Nurse Type: </label>
+                                                <label class="col-md-4 col-form-label">Nurse Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="nurse_type3">
                                                         <option value="" disabled selected>Select Nurse Type</option>
@@ -501,7 +501,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">License Number: </label>
+                                                <label class="col-md-4 col-form-label">License Number </label>
                                                 <div class="col-md-8">
                                                     <input type="number" class="form-control" id="license_number_nurse2" placeholder=""
                                                            autocomplete="off" />
@@ -525,7 +525,7 @@
                                         <!-- Start RT Detail3 --> <!-- ST ใช้ด้วย -->
                                         <div id="rt_detail_3">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">License Type: </label>
+                                                <label class="col-md-4 col-form-label">License Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="license_type_rt3">
                                                         <option value="" disabled selected>Select License Type</option>
@@ -539,7 +539,7 @@
                                         <!-- Start MA Detail3 -->
                                         <div id="ma_detail_3">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">MA Certificate: </label>
+                                                <label class="col-md-4 col-form-label">MA Certificate </label>
                                                 <div class="col-md-8">
                                                     <input type="text" class="form-control" id="ma_certificate3" placeholder=""
                                                            autocomplete="off" />
@@ -550,7 +550,7 @@
                                         <!-- Start Staff Detail3 -->
                                         <div id="staff_detail_3">
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Staff Type: </label>
+                                                <label class="col-md-4 col-form-label">Staff Type </label>
                                                 <div class="col-md-8">
                                                     <select type="text" class="form-control" id="staff_type3">
                                                         <option value="" disabled selected>Select Staff Type</option>
@@ -560,7 +560,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-md-4 col-form-label">Job Title: </label>
+                                                <label class="col-md-4 col-form-label">Job Title </label>
                                                 <div class="col-md-8">
                                                     <input type="text" class="form-control" id="job_title_staff1" placeholder=""
                                                            autocomplete="off" />
@@ -576,27 +576,27 @@
                                         </h6>
                                     </header>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Other Legal First Name: </label>
+                                        <label class="col-md-4 col-form-label">Other Legal First Name </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="other_firstname" placeholder="Other Legal First Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="other_first_name" placeholder="Other Legal First Name" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Other Legal Middle Name: </label>
+                                        <label class="col-md-4 col-form-label">Other Legal Middle Name </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="other_middlename" placeholder="Other Legal Middle Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="other_middle_name" placeholder="Other Legal Middle Name" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Other Legal Last Name: </label>
+                                        <label class="col-md-4 col-form-label">Other Legal Last Name </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="other_lastname" placeholder="Other Legal Last Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="other_last_name" placeholder="Other Legal Last Name" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Other Legal Suf Name: </label>
+                                        <label class="col-md-4 col-form-label">Other Legal Suf Name </label>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" name="other_sufname" placeholder="Other Legal Suf Name" autocomplete="off"/>
+                                            <input type="text" class="form-control" name="other_suf_name" placeholder="Other Legal Suf Name" autocomplete="off"/>
                                         </div>
                                     </div>
 
@@ -606,38 +606,38 @@
                                         </h6>
                                     </header>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Phone: </label>
+                                        <label class="col-md-4 col-form-label">Phone<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" name="phone" placeholder="" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Personal Email: </label>
+                                        <label class="col-md-4 col-form-label">Personal Email<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
                                             <input type="email" class="form-control" name="personal_email" placeholder="@email.com"
                                                    autocomplete="off" />
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Pager: </label>
+                                        <label class="col-md-4 col-form-label">Pager </label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" name="pager" placeholder="" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Fax: </label>
+                                        <label class="col-md-4 col-form-label">Fax </label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" name="fax" placeholder="" autocomplete="off"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Address: </label>
+                                        <label class="col-md-4 col-form-label">Address<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
                                             <textarea class="form-control" name="address"></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-4 col-form-label">Image: </label>
+                                        <label class="col-md-4 col-form-label">Image<sup class="red-700">*</sup> </label>
                                         <div class="col-md-8">
                                             <input type="file" id="input-file-now" data-plugin="dropify" data-default-file=""/>
                                         </div>
