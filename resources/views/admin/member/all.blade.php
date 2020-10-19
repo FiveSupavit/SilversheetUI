@@ -35,7 +35,7 @@
 
     <div class="page-content container-fluid">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 order-md-1 order-sm-2 order-2">
                 <!-- Panel Static Labels -->
                 <div class="panel">
                     <ul class="list-group list-group-bordered">
@@ -136,7 +136,7 @@
                 <!-- End Panel Static Labels -->
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 order-md-2 order-sm-1 order-1">
                 <div class="panel panel-bordered">
                     <div class="panel-heading">
                         <h3 class="panel-title">Add Member
